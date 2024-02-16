@@ -38,16 +38,16 @@ export default function PrevGoonj({refer}:prevGoonjProp){
     return(
         <div className={styles.container} ref={bg} >
             <div className={styles.first}>
-                <h1 id="trig" ref={ref}>Welcome to Goonj <br /> 2K23</h1>
+                <h1 id="trig" ref={ref}>Welcome to Goonj <br /> 2024</h1>
 
                 <p>
                 Goonj is the annual Techno-Cultural fest of University Institute of
                 Engineering and Technology (UIET) is going to be organised by the students
                 of the University. The spirit of the fest is to promote the cultural as well as the technical alacrity among the students. Moreover, the motive is to spread a zeal among students relieving them from the stressful schedule of an engineering atmosphere.
                 </p>
-                <h2>The theme for Goonj 2023 is</h2>
+                <h2>Glimpse of Goonj 2023</h2>
                 <div className={styles.videoContainer} >
-                    <iframe  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Goonj 2k23 - Theme Release" src="https://www.youtube.com/embed/dpB7sXgNDfs?enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=3" id="widget4" allowFullScreen className={styles.video}></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U1jcj_FTCPk?si=70BEIedHrk1V-4NI" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                 </div>
                 <h2>Star Night</h2>
                 <div className={styles.pastArtists}>
@@ -81,7 +81,7 @@ export default function PrevGoonj({refer}:prevGoonjProp){
 
             </div>
             <p>Goonj, UIET PU CHD</p>
-            <p>Design & Developed by <a href="https://www.linkedin.com/in/yuvraj-bind/">Yuvraj Bind</a></p>
+            <p>Design & Developed by <a href="https://www.linkedin.com/in/yuvraj-bind/">Yuvraj Bind & Maintain by Sachin Kumar Saroj</a></p>
         </div>
     )
 }

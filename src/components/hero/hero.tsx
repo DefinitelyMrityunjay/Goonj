@@ -6,14 +6,14 @@ export default function Hero(){
     const tagSize=200;
     return(
         <div className={styles.container}>
-            <Image 
+            {/* <Image 
             id="tagLine"
             className={styles.tagLine}
-            src="/theam2.jpg"
+            
             alt="TagLine"
             width={tagSize*2.25}
             height={tagSize}
-            />
+            /> */}
             {/* <Dancers /> */}
             <p className={styles.scrollDown} id="scrollDown">Scroll Down</p>
         </div>
