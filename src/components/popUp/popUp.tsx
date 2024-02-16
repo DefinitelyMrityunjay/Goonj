@@ -7,7 +7,7 @@ export default function Popup({setpopup}:popupProp){
             <div className={styles.bg}>
                 <Image
                     className={styles.img}
-                    src="/artist/Gurnaam Bhullar (2).png"
+                    src="/artist/march.png"
                     alt="startnight"
                     width={1414}
                     height={2000}

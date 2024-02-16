@@ -101,7 +101,7 @@ export default function Navbar({color}:navProp){
                 <Link href="/">
                     <Image
                     className={styles.img}
-                    src="/logos/goonjTpExtDte.png"
+                    src="/logos/goonj.jpg"
                     alt="Goonj"
                     width={2789}
                     height={861}

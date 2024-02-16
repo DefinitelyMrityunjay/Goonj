@@ -8,8 +8,8 @@ export default function About(){
     return (
         <>
           <Head>
-            <title>Goonj 2023 | About</title>
-            <meta name="Goonj" content="Goonj 2023, UIET,PU CHD" />
+            <title>Goonj 2024 | About</title>
+            <meta name="Goonj" content="Goonj 2024, UIET,PU CHD" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
           </Head>

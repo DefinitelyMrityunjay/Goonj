@@ -9,7 +9,7 @@ export default function Sponsers(){
     return (
         <>
           <Head>
-            <title>Goonj 2023 | Sponsers</title>
+            <title>Goonj 2024 | Sponsers</title>
             <meta name="Goonj" content="Goonj 2023, UIET,PU CHD" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />

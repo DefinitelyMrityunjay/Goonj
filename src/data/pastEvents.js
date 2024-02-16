@@ -53,9 +53,9 @@ export const pastEvent = [
 ];
 export const pastArtist = [
   {
-    src: "/artist/Gurnaam Bhullar (2).png",
-    alt: "Gurnaam Bhullar",
-    title: "Gurnaam Bhullar",
+    src: "/artist/march.png",
+    alt: "Kulwinder Billa",
+    title: "Kulwinder Billa",
     width: 28 * 7,
     height: 280,
   },
@@ -64,8 +64,8 @@ export const pastArtist = [
 export const anchor = [
   {
     src: "/artist/png_20230225_154137_0000.png",
-    alt: "RJ Kashish",
-    title: "RJ Kashish",
+    alt: "RJ Geet",
+    title: "RJ Geet",
     degi: "MyFM",
     width: 28 * 7,
     height: 280,
