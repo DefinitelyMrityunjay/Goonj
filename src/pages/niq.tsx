@@ -19,7 +19,7 @@ export default function Niq(){
            </header>
            <Image 
            className={styles.bgimg}
-           src="/theme3.png"
+           src="/theme2.jpg"
            alt="bggreen"
            width={1920}
            height={1080}

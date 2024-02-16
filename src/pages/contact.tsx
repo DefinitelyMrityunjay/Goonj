@@ -22,7 +22,7 @@ export default function Contact(){
            </header>
             <Image 
             className={styles.img}
-            src="/theme2.png"
+            src="/theme2.jpg"
             alt="theme"
             width={1892}
             height={628}

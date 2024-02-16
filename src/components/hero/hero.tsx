@@ -9,7 +9,7 @@ export default function Hero(){
             <Image 
             id="tagLine"
             className={styles.tagLine}
-            src="/tagline.png"
+            src="/theam2.jpg"
             alt="TagLine"
             width={tagSize*2.25}
             height={tagSize}
