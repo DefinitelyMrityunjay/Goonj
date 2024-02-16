@@ -47,7 +47,7 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                 </p>
                 <h2>Glimpse of Goonj 2023</h2>
                 <div className={styles.videoContainer} >
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/U1jcj_FTCPk?si=70BEIedHrk1V-4NI" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/48SC6qk2MDY?si=q-nmDroPd6Y1qPDI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                 </div>
                 <h2>Star Night</h2>
                 <div className={styles.pastArtists}>
