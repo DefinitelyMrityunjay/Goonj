@@ -55,7 +55,7 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                         return <EventTile {...artist} key={index} />
                     })}
                 </div>
-                <h2>Guest Anchor</h2>
+                <h2>Comedy Night</h2>
                 <div className={styles.pastArtists}>
                     {anchor.map((artist,index)=>{
                         return <EventTile {...artist} key={index} />
