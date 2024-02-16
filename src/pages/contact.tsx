@@ -39,24 +39,17 @@ export default function Contact(){
               {
                 type=="Faculty" && <div className={styles.faculty}>
                   {Faculty.map((fac,idx)=>{
-                    return <Profile {...fac}  key={idx}/>
+                    return <Profile{...fac}  key={idx}/>
                   })}
                 </div>
               }
               {
                 type=="OC" && <div className={styles.OC}>
-                  {OC.map((fac,idx)=>{
-                    return <Profile {...fac}  key={idx}/>
+                  {OC.map((oc,idx)=>{
+                    return <Profile {...oc}  key={idx}/>
                   })}
                 </div>
-              }
-              {/* {
-                type=="SC" && <div className={styles.SC}>
-                  {SC.map((fac,idx)=>{
-                    return <Profile {...fac}  key={idx}/>
-                  })}
-                </div>
-              } */}
+              } 
           </main>
         </>
       );
