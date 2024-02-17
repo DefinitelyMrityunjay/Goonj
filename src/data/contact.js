@@ -18,7 +18,8 @@ export const Faculty = [
     alt: "Dr.Akashdeep Sharma",
     des: "Member, Faculty Coordination Committee",
     contact: "",
-    //email: "mukesh_rai9@pu.ac.in",
+    email : ""
+    
   },
   {
     src: "/faculty/shuchi.jpg",
@@ -32,7 +33,8 @@ export const Faculty = [
     alt: "Dr.Preeti Singh",
     des: "Member, Faculty Coordination Committee",
     contact: "",
-    //email: "dk_uiet@pu.ac.in",
+    email : ""
+    
   },
   
   {
@@ -40,14 +42,16 @@ export const Faculty = [
     alt: "Er.Sukhvir Singh",
     des: "Member, Faculty Coordination Committee",
     contact: "",
-    //email: "harry2211@rediffmail.com",
+    email : ""
+    
   },
   {
     src: "/faculty/anupreet.jpg",
     alt: "Dr.Anupreet Kaur",
     des: "Member, Faculty Coordination Committee",
     contact: "",
-    //email: "harry2211@rediffmail.com",
+    email : ""
+    
   },
 ];
 
