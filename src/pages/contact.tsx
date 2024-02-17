@@ -39,7 +39,7 @@ export default function Contact(){
               {
                 type=="Faculty" && <div className={styles.faculty}>
                   {Faculty.map((fac,idx)=>{
-                    return <Profile{...fac}  key={idx}/>
+                    return <Profile {...fac}  key={idx}/>
                   })}
                 </div>
               }
