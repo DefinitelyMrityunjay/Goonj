@@ -1,6 +1,16 @@
 import Image from "next/image"
 
 import styles from "./profile.module.scss"
+interface profileProp {
+    key: number;
+    src: string;
+    alt: string;
+    des: string;
+    contact: string;
+    email?: string; // Make email optional by adding a question mark (?)
+  }
+  
+  
 export default function Profile({src,alt,contact,des,email}:profileProp){
     return(
         <div className={styles.container}>
@@ -21,7 +31,7 @@ export default function Profile({src,alt,contact,des,email}:profileProp){
                 height={30}
                 />
                 </a>}
-            {email!="" &&<a href={`mailto: ${email}`}>
+            {email!="" && <a href={`mailto: ${email}`}>
                 <Image 
                     src="/logos/logos_google-gmail.png"
                     alt="Mail"

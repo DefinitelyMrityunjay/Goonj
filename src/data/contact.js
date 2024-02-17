@@ -32,7 +32,7 @@ export const Faculty = [
     alt: "Dr.Preeti Singh",
     des: "Member, Faculty Coordination Committee",
     contact: "",
-    //email: "dk_uiet@pu.ac.in",
+    email: "dk_uiet@pu.ac.in",
   },
   
   {
@@ -40,14 +40,14 @@ export const Faculty = [
     alt: "Er.Sukhvir Singh",
     des: "Member, Faculty Coordination Committee",
     contact: "",
-    //email: "harry2211@rediffmail.com",
+    email: "harry2211@rediffmail.com",
   },
   {
     src: "/faculty/anupreet.jpg",
     alt: "Dr.Anupreet Kaur",
     des: "Member, Faculty Coordination Committee",
     contact: "",
-    //email: "harry2211@rediffmail.com",
+    email: "harry2211@rediffmail.com",
   },
 ];
 

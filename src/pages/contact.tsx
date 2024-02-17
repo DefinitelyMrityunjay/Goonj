@@ -6,6 +6,7 @@ import styles from "../styles/contact.module.scss"
 import { useState } from "react";
 import Profile from "@/components/profile/profile";
 
+
 export default function Contact(){
     const [type,setType]=useState<string>("OC")
     return (
