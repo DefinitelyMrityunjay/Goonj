@@ -49,18 +49,25 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                 <div className={styles.videoContainer} >
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/48SC6qk2MDY?si=q-nmDroPd6Y1qPDI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                 </div>
+                <div className={styles.stars}>
+                <div className="Star Night">
                 <h2>Star Night</h2>
                 <div className={styles.pastArtists}>
                     {pastArtist.map((artist,index)=>{
                         return <EventTile {...artist} key={index} />
                     })}
                 </div>
-                <h2>Comedy Night</h2>
+                </div>
+                <div className="Comedy Night">
+                    <h2>Comedy Night</h2>
                 <div className={styles.pastArtists}>
                     {anchor.map((artist,index)=>{
                         return <EventTile {...artist} key={index} />
                     })}
                 </div>
+                </div>
+                </div>
+                
 
                 <h2>Events</h2>
                 <p>Total Prizes to be won: INR 70,000/- Goodies / Gifts / Coupons are extra, over and above the specified INR</p>
