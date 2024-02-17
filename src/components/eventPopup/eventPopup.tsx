@@ -2,7 +2,6 @@ import Image from "next/image"
 import styles from "./eventPopup.module.scss"
 
 export default function EventPopup({src,alt,width,height,desc, contact, link, registerDesc, registerLink,setpopup}:eventCardProp){
-
     return (
         <div className={styles.popupContainer}>
             <div className={styles.imgSection}>
