@@ -56,6 +56,12 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         </div>
+        <div className={styles.themeRelease}>
+          <div className={styles.themeReleaseText}>THEME</div>
+          <div className={styles.themeReleaseLine}></div>
+          <div>RELEASE</div>
+        </div>
+
         <div className={styles.stars}>
           <div className="Star Night">
             <h2>Star Night</h2>
@@ -77,7 +83,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
 
         <h2>Events</h2>
         <p>
-          Total Prizes to be won: INR 70,000/- Goodies / Gifts / Coupons are
+          Total Prizes to be won: INR 80,000/- Goodies / Gifts / Coupons are
           extra, over and above the specified INR
         </p>
         <div className={styles.pastEvents}>

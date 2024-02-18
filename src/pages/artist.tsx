@@ -34,15 +34,11 @@ export default function Artist() {
           </div>
           <p>Our Previous Star</p>
           <h3>Gurnaam Bullar</h3>
-          <div className={styles.preArtist}>
-            <img
-              className={styles.img}
-              src="/artist/gurnaam.png"
-              alt="Gurnaam Bullar"
-              width={700}
-              height={408}
-            />
-          </div>
+          <img
+            className={styles.gurnaam}
+            src="/artist/gurnaam.png"
+            alt="Gurnaam Bullar"
+          />
         </div>
       </main>
     </>
