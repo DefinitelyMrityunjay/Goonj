@@ -67,7 +67,7 @@ export const OC = [
     email: "",
   },
   {
-    src: "https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/Ansh.png?alt=media&token=dd84cc56-c42f-4bcf-9a2e-1bbebb5ac646",
+    src: "/student core/sachin.jpg",
     alt: "Ansh Bhardwaj",
     des: "Technical Coordinator",
     contact: "918439609376",
