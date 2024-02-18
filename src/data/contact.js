@@ -71,7 +71,7 @@ export const OC = [
     email: "",
   },
   {
-    src: "/student core/ansh.JPG",
+    src: "/student core/ansh.jpg",
     alt: "Ansh Bhardwaj",
     des: "Technical Coordinator",
     contact: "918439609376",
