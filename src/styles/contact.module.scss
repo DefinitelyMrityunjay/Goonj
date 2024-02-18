@@ -25,7 +25,7 @@
 
     .FacultyStudentClicks {
       display: flex;
-      font-size: 20px;
+      font-size: 30px;
       align-items: center;
       justify-content: space-evenly;
       color: white;
@@ -122,8 +122,9 @@
     }
     .imgDIV {
       .FacultyStudentClicks {
+        font-size: 15px;
         li {
-        font-family: Oswald, sans-serif;
+          font-family: Oswald, sans-serif;
           display: flex;
           text-align: center;
           justify-content: center;

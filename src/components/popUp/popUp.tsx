@@ -25,15 +25,15 @@ export default function Popup({ setpopup }: popupProp) {
                 width={1414}
                 height={2000}
               />
-              <div
-                className={styles.cross}
-                onClick={() => {
-                  setpopup(false);
-                }}
-              >
-                <p>X</p>
-              </div>
             </a>
+            <div
+              className={styles.cross}
+              onClick={() => {
+                setpopup(false);
+              }}
+            >
+              <p>X</p>
+            </div>
           </div>
         </div>
       )}
