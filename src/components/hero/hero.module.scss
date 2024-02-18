@@ -1,52 +1,62 @@
-.container{
-    .tagLine{
-        z-index: -1;
-        position: fixed;
-        top:45%;
-        left:50%;
-        width: 35%;
-        height: 27%;
-        transform: translate(-50%,-50%);
-
-    }
-    .scrollDown{
-        position:fixed;
-        top:85%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        color: azure;
-        font-family:'Roboto mono', monospace;
-        font-weight: 600;
-        letter-spacing: .3rem;
-        animation: scrollDown 1.5s ease-out 2s infinite forwards;
-
-    }
+.container {
+  .tagLine {
+    font-family: "Protest Riot", sans-serif;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    top: 83.4%;
+    left: 7%;
+    font-size: 2rem;
+    // transform: translate(-220%, -50%);
+  }
+  .date {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    top: 90%;
+    left: 50%;
+    translate: 0%;
+    font-size: 0.5rem;
+    font-size: 30px;
+    font-family: Oswald, sans-serif;
+  }
+  .scrollDown {
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    font-family: "Roboto mono", monospace;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    animation: scrollDown 1.5s ease-out 2s infinite forwards;
+  }
 }
 
 @keyframes scrollDown {
-    0% {
-        top: 85%;
-    }
-    100%{
-        top:95%;
-    }
-    
+  0% {
+    top: 85%;
+  }
+  50% {
+    top: 95%;
+  }
+  100% {
+    top: 85%;
+  }
 }
 
-@media screen and (max-width:1200px){
-    .container{
-
-        .tagLine{
-            height:20%
-        }
+@media screen and (max-width: 1200px) {
+  .container {
+    .tagLine {
+      height: 20%;
     }
+  }
 }
 
-@media screen and (max-width:600px){
-    .container{
-
-        .tagLine{
-            height:15%
-        }
+@media screen and (max-width: 600px) {
+  .container {
+    .tagLine {
+      height: 15%;
     }
+  }
 }
