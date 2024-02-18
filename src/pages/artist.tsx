@@ -15,7 +15,7 @@ export default function Artist() {
         <header>
           <Navbar color={"#AD0000"} />
         </header>
-        <div className={styles.artist}>
+        <div className={styles.artist} style={{display:"grid", placeItems:"center" }}>
           <h2>Kulwinder Billa</h2>
           <div className={styles.media}>
             <video
@@ -32,13 +32,18 @@ export default function Artist() {
               height={1080}
             />
           </div>
+          <div className={styles.preArtist} style={{display:"grid", placeItems:"center" }}>
           <p>Our Previous Star</p>
-          <h3>Gurnaam Bullar</h3>
-          <img
-            className={styles.gurnaam}
-            src="/artist/gurnaam.png"
-            alt="Gurnaam Bullar"
-          />
+          <h3 style={{marginTop:"4rem", marginBottom:"-30px"}}>Gurnaam Bullar</h3>
+            <Image
+              className={styles.imgb}
+              style={{ width: "60%", height: "auto" }}
+              src="/artist/gurnaam.png"
+              alt="Gurnaam Bullar"
+              width={700}
+              height={408}
+            />
+          </div>
         </div>
       </main>
     </>

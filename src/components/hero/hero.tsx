@@ -15,7 +15,7 @@ export default function Hero() {
             /> */}
       {/* <Dancers /> */}
       <p className={styles.tagLine}>UIET’S TECHNO-CULTURAL FEST</p>
-      <p className={styles.date}>&#128197; 13-14-15 MARCH</p>
+      <p className={styles.date}>&#128197; 13th, 14th & 15th MARCH</p>
       <Image
         src="/bgIMG3.png"
         alt="theme"
