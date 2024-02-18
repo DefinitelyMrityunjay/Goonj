@@ -131,7 +131,7 @@ export default function Navbar({ color }: navProp) {
           </ul>
         )}
       </nav>
-      <nav className={styles.socials} id="bottom">
+      {/* <nav className={styles.socials} id="bottom">
         <ul style={{ backgroundColor: color }}>
           <li>
             <Link
@@ -167,7 +167,7 @@ export default function Navbar({ color }: navProp) {
             </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 }
