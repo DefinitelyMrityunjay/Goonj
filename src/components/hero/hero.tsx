@@ -15,6 +15,7 @@ export default function Hero(){
             height={tagSize}
             /> */}
             {/* <Dancers /> */}
+             <Image src="/bgImg.png" alt="theme" layout="fill" objectFit="cover" className="HeroIMG" />
             <p className={styles.scrollDown} id="scrollDown">Scroll Down</p>
         </div>
     )

@@ -12,8 +12,19 @@
   .bgImg{
     height: 100vh;
     width:100vw;
-    z-index:-1;
+    z-index:0;
     position:fixed;
     top:0;
     left:0;
+  }
+  .HeroIMG{
+    width: 1vw;
+    height: 1vh;
+    z-index: -1;
+    position:absolute;
+    // top:0;
+    // left:0;
+    // object-fit: cover;
+    // object-position: 50% 50%;
+
   }
