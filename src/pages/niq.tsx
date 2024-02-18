@@ -27,6 +27,7 @@ export default function Niq(){
            <div className={styles.top}></div>
            <div className={styles.content}>
 
+
            <h2 className={styles.heading}>Goonj 2024
             <br />
            NIQ for Infrastructure</h2>
