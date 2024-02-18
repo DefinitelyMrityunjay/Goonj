@@ -4,20 +4,23 @@
   flex-direction: column;
   align-items: center;
   width: fit-content;
-  background-image: linear-gradient(
-    to right top,
-    #ec3e1e,
-    #d03118,
-    #b52312,
-    #9a160c,
-    #800704
-  );
+  // background-image: linear-gradient(
+  //   to right top,
+  //   #812b1c,
+  //   #d03118,
+  //   #b52312,
+  //   #9a160c,
+  //   #800704
+  // );
+  background: #000;
+  border: solid 1px #db6200;
+  box-shadow: #e8330a 0 5px 20px;
 
   .img {
     border-radius: 10%;
     width: 20vw;
     height: auto;
-    border: 2px solid #f04591;
+    border: 2px solid #da6403;
   }
   .whatsapp {
     margin: 10px 0;
