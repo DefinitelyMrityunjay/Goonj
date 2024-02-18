@@ -22,7 +22,7 @@ export default function Profile({src,alt,contact,des,email}:profileProp){
                 height={100}
             />
             <p className={styles.name}>{alt}</p>
-            <p>{des}</p>
+            <p className={styles.des}>{des}</p>
             { contact!="" &&<a href={`https://api.whatsapp.com/send?phone=${contact}`} target="_blank" rel="noreferrer">
                 <Image 
                 src="/logos/logos_whatsapp-icon.png"
