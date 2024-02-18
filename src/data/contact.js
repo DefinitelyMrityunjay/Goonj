@@ -14,12 +14,11 @@ export const Faculty = [
     email: "harry2211@rediffmail.com",
   },
   {
-    src: "/faculty/Akashdeep.jpg",
+    src: "/faculty/akashdeep.jpg",
     alt: "Dr.Akashdeep Sharma",
     des: "Member, Coordination Committee",
     contact: "",
-    email : ""
-    
+    email: "",
   },
   {
     src: "/faculty/shuchi.jpg",
@@ -29,29 +28,26 @@ export const Faculty = [
     email: "sgupta@pu.ac.in",
   },
   {
-    src: "/faculty/Preeti.JPG",
+    src: "/faculty/preeti.jpg",
     alt: "Dr.Preeti Singh",
     des: "Member, Coordination Committee",
     contact: "",
-    email : ""
-    
+    email: "",
   },
-  
+
   {
     src: "/faculty/Sukhvir.jpg",
     alt: "Er.Sukhvir Singh",
     des: "Member, Coordination Committee",
     contact: "",
-    email : ""
-    
+    email: "",
   },
   {
     src: "/faculty/anupreet.jpg",
     alt: "Dr.Anupreet Kaur",
     des: "Member, Coordination Committee",
     contact: "",
-    email : ""
-    
+    email: "",
   },
 ];
 
@@ -71,7 +67,7 @@ export const OC = [
     email: "",
   },
   {
-    src: "/student core/ansh.JPG",
+    src: "/student core/ansh.jpg",
     alt: "Ansh Bhardwaj",
     des: "Technical Coordinator",
     contact: "918439609376",
