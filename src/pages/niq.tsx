@@ -17,15 +17,16 @@ export default function Niq(){
            <header>
               <Navbar  color={"#2C4938"} />
            </header>
-           <Image 
-           className={styles.bgimg}
-           src="/theme2.jpg"
-           alt="bggreen"
-           width={1920}
-           height={1080}
-           />
+
            <div className={styles.top}></div>
            <div className={styles.content}>
+           <Image 
+           className={styles.heroimg}
+           src="/NIQ_hero.svg"
+           alt="bggreen"
+           width={320}
+           height={159}
+           />
 
 
            <h2 className={styles.heading}>Goonj 2024
