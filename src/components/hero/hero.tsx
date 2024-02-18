@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./hero.module.scss";
-import Dancers from "../dancers/dancers";
 
 export default function Hero() {
   const tagSize = 200;
@@ -15,6 +14,7 @@ export default function Hero() {
             height={tagSize}
             /> */}
       {/* <Dancers /> */}
+      <p className={styles.tagLine}>UIET’S TECHNO-CULTURAL FEST</p>
       <Image
         src="/bgIMG3.png"
         alt="theme"
@@ -22,9 +22,6 @@ export default function Hero() {
         objectFit="cover"
         className={styles.heroIMG}
       />
-      <p className={styles.scrollDown} id="scrollDown">
-        Scroll Down
-      </p>
     </div>
   );
 }
