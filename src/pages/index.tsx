@@ -22,17 +22,24 @@ export default function Home() {
       <main className={styles.main} ref={ref}>
         {/* <Marque/> */}
         {popup && <Popup setpopup={setPopup} />}
-        <Image
-        id="stage"
-        className={styles.bgImg}
-        src="/8117254_2092.jpg"
-        alt="background"
-        width={6000}
-        height={3000}
-        />
        <header>
           <Navbar color={"#a02a91"}/>
        </header>
+       <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+    <div
+      id="stage"
+      className={styles.bgImg}
+      style={{
+        // position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'black',
+        zIndex: -1
+      }}
+    />
+  </div>
        <Hero/>
       </main>
        <PrevGoonj refer={ref}/>
