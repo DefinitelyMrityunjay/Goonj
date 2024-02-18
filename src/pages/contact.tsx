@@ -23,15 +23,16 @@ export default function Contact(){
            </header>
            <div className={styles.imgDIV}>
             <div>
-            <ul className={styles.FacultyStudentClicks}>
-              <li onClick={()=>setType("Faculty")}>Core Faculty Team</li>
-              <li >              <Image 
+               <div id="CONTACT_IMG">        <Image 
             className={styles.img}
             src="/contactus.png"
             alt="theme"
             width={604}
             height={135}
-            /></li>
+            /></div>
+            <ul className={styles.FacultyStudentClicks}>
+              <li onClick={()=>setType("Faculty")}>Core Faculty Team</li>
+              
               <li onClick={()=>setType("OC")}>Core Students Team</li>
             </ul>
               <div></div>
