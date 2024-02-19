@@ -14,7 +14,7 @@ export const Faculty = [
     email: "harry2211@rediffmail.com",
   },
   {
-    src: "/faculty/akashdeep.jpg",
+    src: "https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/Akashdeep.jpg?alt=media&token=60d6aa36-89ac-4d6b-a858-5b0bea858293",
     alt: "Dr.Akashdeep Sharma",
     des: "Member, Coordination Committee",
     contact: "",
@@ -28,7 +28,7 @@ export const Faculty = [
     email: "sgupta@pu.ac.in",
   },
   {
-    src: "/faculty/preeti.jpg",
+    src: "https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/Preeti.jpg?alt=media&token=2d7b4fe7-bfe3-4e85-9953-6bc700d97fe0",
     alt: "Dr.Preeti Singh",
     des: "Member, Coordination Committee",
     contact: "",
