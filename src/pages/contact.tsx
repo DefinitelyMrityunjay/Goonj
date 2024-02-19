@@ -31,7 +31,7 @@ export default function Contact(){
             height={135}
             /></div>
             <ul className={styles.FacultyStudentClicks}>
-              <li onClick={()=>setType("Faculty")}>Core Faculty Team</li>
+              <li onClick={()=>setType("Faculty")}>pFaculty Team</li>
               
               <li onClick={()=>setType("OC")}>Core Students Team</li>
             </ul>
