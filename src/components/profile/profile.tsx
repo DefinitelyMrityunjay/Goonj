@@ -19,7 +19,7 @@ export default function Profile({
 }: profileProp) {
   return (
     <div className={styles.container}>
-      <Image
+      <Image 
         className={styles.img}
         src={src}
         alt={alt}
