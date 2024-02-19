@@ -60,7 +60,7 @@ export const OC = [
     email: "",
   },
   {
-    src: "/student core/sachin.jpg",
+    src: "https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/sachin.jpg?alt=media&token=f3b7e24f-0c8a-42fe-a712-4f63ebe64c85",
     alt: "Sachin Kumar Saroj",
     des: "Cultural Coordinator",
     contact: "919721830891",
