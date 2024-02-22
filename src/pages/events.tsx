@@ -1,83 +1,197 @@
-import Head from "next/head";
-import Image from "next/image";
-import Navbar from "@/components/navbar/navbar";
-import styles from "../styles/events.module.scss"
-import gsap from "gsap/dist/gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import { useEffect, useRef, useState } from "react";
-import Marque from "@/components/marque/marque";
-import {events} from "../data/events"
-import EventCard from "@/components/eventCard/eventCard";
-import EventPopup from "@/components/eventPopup/eventPopup";
+import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt, faUsers, faCalendarAlt, faClock, faTags, faMoneyBillAlt}from '@fortawesome/free-solid-svg-icons';
+import footerstyles from "@/styles/footer.module.scss"
+import eventsData from '../data/eventsInfo.json';
+import Navbar from '@/components/navbar/navbar';
+const EventsPage = () => {
+  const [events] = useState(eventsData);
 
-gsap.registerPlugin(ScrollTrigger)
-export default function Events(){
-    const ref=useRef<HTMLDivElement>(null);
-    const trigger=useRef<HTMLDivElement>(null);
-    const [popup, setpopup]=useState<boolean>(false);
-    const [event, setEvent]=useState<eventCardProp>(events[0])
-    useEffect(()=>{
-      const ctx=gsap.context(()=>{
-        const tl=gsap.timeline({
-          scrollTrigger:{
-            trigger:trigger.current,
-            start:"start 95%",
-            end:"start 75%",
-            scrub:1,
-            // markers:true
-          }
-        })
-         tl.to('#head',{opacity:0})
-         tl.to('#scrollDown',{zIndex:-1},0)
-         tl.to('#events',{background:"rgba(0,0,0,.5)"},0)
+  return (
+    
+    <div className="page-container">
+      <Navbar/>
+      <div className="banner">
+        <img src="/events-hero.svg" alt="Event Banner" />
+      </div>
+      <div className="events-container">
+        {events.map((event, index) => (
+          <div key={index} className="event-card">
+            <img src={event.src} alt={event.alt} />
+            <div className="eventsCardData">
+            <h2 className="event-name">{event.eventName.toUpperCase()}</h2>
+            <div className ="eventOrg">Organised by: {event.organizingClub}</div>
 
-
-      },ref)
-      return () =>{
-        ctx.revert()
-        ScrollTrigger.killAll()
-      }
-    },[ref])
-    return (
-        <>
-          <Head>
-            <title>Goonj 2024 | Events</title>
-            <meta name="Goonj" content="Goonj 2024, UIET,PU CHD" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="icon" href="/favicon.ico" />
-          </Head>
-          <main className={styles.main}>
-            {/* <Marque /> */}
-            <header>
-              <Navbar color={"#AD0000"}/>   
-            </header>
-            <Image
-            className={styles.bgred}
-            src="/bgred.jpg"
-            alt="bgred"
-            width={2000}
-            height={1143}
-            />
-            <div ref={ref}>
-            {
-              popup && <div className={styles.popup}>
-                <EventPopup {...event}  setpopup={setpopup}/>
-              </div>
-            }
-
-            <div>
-              <h1 id="head" className={styles.head}>EVENTS</h1>
-              <p id="scrollDown" className={styles.scrollDown}>Scroll Down</p>
-
+            <div className="events-sub">
+            <div><FontAwesomeIcon icon={faCalendarAlt} /> {event.date}</div>
+            <div><FontAwesomeIcon icon={faClock} /> {event.time}</div>
+            <div><FontAwesomeIcon icon={faUsers} /> {event.members}</div>
             </div>
-            <div id="events" className={styles.event}>
-              <div className={styles.line} ref={trigger}></div>
-              {events.map((event,indx)=>{
-                return <EventCard {...event} key={indx} setEvent={setEvent} setpopup={setpopup}/>
-              })}
+            <div  className="events-sub">
+            <div> <FontAwesomeIcon icon={faMapMarkerAlt} /> {event.venue}</div>
+            <div> <FontAwesomeIcon icon={faTags} /> {event.genre}</div>
             </div>
+            <div  className="events-sub">
+            <div>{event.registrationFee} <FontAwesomeIcon icon={faMoneyBillAlt} /></div>
             </div>
-          </main>
-        </>
-      );
+            <div className="eventReg"><a href={event.registerLink} >Register Now</a></div>
+            </div>
+          </div>
+        ))}
+        <div className={footerstyles.footer}>
+        <p>© Goonj&apos;24 Digital Operations</p>
+        <p>
+        Design & Developed by{" "}
+      
+        <a href="/">
+          Hitesh Bandhu,&nbsp;
+        </a>
+        <a href="/">
+            Kanika Tiwari,&nbsp;
+        </a>
+        <a href="/">
+        Mayur Sehgal,&nbsp;
+        </a>
+        <a href="/">
+          Bhargavi Goyal
+        </a>
+        </p>
+        <p>Powered By Quinji Tech Web Solutions</p>
+    </div>
+      </div>
+      <style jsx>{`
+        .page-container {
+          background : #fc6700;
+          height : 100vh;
+          z-index:-99;
+          margin: 0 0;
+          height : auto;
+          font-size:14px /* Add left and right margin */
+        }
+
+        .banner {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        
+        .banner img {
+          margin-top : 90px;
+          max-width: 100%;
+        }
+
+        .events-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap:30px;
+          
+          margin: 50px/* Negative margin to compensate for card padding */
+
+        }
+
+        .event-card {
+          background : #fde53b;
+          z-index: 5;
+            flex-basis: calc(33.33% - 20px); 
+        min-width:300px;
+          padding: 10px;
+          display:flex;
+          flex-direction:column;
+          border: 2px solid #000;
+          border-radius: 20px;
+          height: auto;
+          box-shadow: 14px 14px 12px rgba(0, 0, 0, 0.7);
+          position: relative;
+          overflow: hidden; /* Hide overflow */
+        }
+
+        .event-card img {
+        width:auto;
+        height:150px;
+        padding-bottom:5px;
+          border-radius: 10px 10px 0 0;
+          object-fit: cover;
+          
+        }
+
+        .eventsCardData{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            gap:8px
+        }
+        .event-name {
+          text-transform: uppercase;
+          font-size: 24px;
+          text-align: center;
+          padding-top:8px;
+          font-family : Protest Riot, sans-serif;
+         
+        }
+
+.eventOrg{
+    font-size: 18px;
+    text-align: center;
+    font-family : Oswald, sans-serif;
+    
 }
+
+.events-sub{
+    display:flex;
+    width:100%;
+    align-items:center;
+justify-content:center;
+gap:16px;
+
+padding:5px
+
+}
+
+.events-sub div{
+    
+    border-radius: 50px;
+   border:2px solid black;
+    padding:8px
+}
+
+        .eventReg {
+        position:relative
+        
+       width: 75%;
+          background-color: #007bff;
+          
+          text-align: center;
+          padding: 15px;
+          border-radius: 50px;
+          
+          /* Ensure button stays above card content */
+        }
+
+
+        .eventReg a{
+            color: #fff;
+            text-decoration: none;
+            font-size:18px;
+        }
+
+        .eventReg:hover {
+          background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+          .event-card {
+            width: calc(50% - 20px);
+          }
+        }
+
+        @media (max-width: 480px) {
+          .event-card {
+            width: 100%;
+          }
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export default EventsPage;

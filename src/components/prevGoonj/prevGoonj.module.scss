@@ -30,7 +30,7 @@
       padding: 1rem;
       text-decoration: none;
       font-family: "Oswald";
-      font-size: 1.2rem;
+      font-size: 1.5em;
       line-height: 1.5rem;
     }
     .videoContainer {
@@ -76,15 +76,7 @@
       justify-content: center;
     }
   }
-  p {
-    font-family: monospace;
-    color: azure;
-    margin-top: 0.5rem;
-    a {
-      text-decoration: none;
-      color: azure;
-    }
-  }
+  
 }
 
 @media screen and (max-width: 1200px) {

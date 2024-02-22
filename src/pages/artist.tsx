@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
 import styles from "../styles/artist.module.scss";
+import footerstyles from "@/styles/footer.module.scss"
 export default function Artist() {
   return (
     <>
@@ -45,6 +46,26 @@ export default function Artist() {
             />
           </div>
         </div>
+        <div className={footerstyles.footer}>
+        <p>© Goonj&apos;24 Digital Operations</p>
+        <p>
+        Design & Developed by{" "}
+      
+        <a href="/">
+          Hitesh Bandhu,&nbsp;
+        </a>
+        <a href="/">
+            Kanika Tiwari,&nbsp;
+        </a>
+        <a href="/">
+        Mayur Sehgal,&nbsp;
+        </a>
+        <a href="/">
+          Bhargavi Goyal
+        </a>
+        </p>
+        <p>Powered By Quinji Tech Web Solutions</p>
+    </div>
       </main>
     </>
   );

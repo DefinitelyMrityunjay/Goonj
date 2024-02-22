@@ -5,6 +5,7 @@ import { Faculty, OC } from "../data/contact";
 import styles from "../styles/contact.module.scss";
 import { useState } from "react";
 import Profile from "@/components/profile/profile";
+import footerstyles from "@/styles/footer.module.scss"
 
 export default function Contact() {
   const [type, setType] = useState<string>("OC");

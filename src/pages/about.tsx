@@ -3,6 +3,8 @@ import Image from "next/image";
 import AboutUs from "@/components/about/aboutUs";
 import Navbar from "@/components/navbar/navbar";
 import styles from "../styles/about.module.scss"
+import Footer from "@/components/footer/footer";
+import footerstyles from "@/styles/footer.module.scss"
 
 export default function About(){
     return (
@@ -29,6 +31,7 @@ export default function About(){
            </div>
           </main>
            <AboutUs />
+           
         </>
       );
 }
