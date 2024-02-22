@@ -7,6 +7,7 @@ import styles from "./prevGoonj.module.scss";
 import { events } from "@/data/events";
 import EventTile from "../eventTile/eventTile";
 import Link from "next/link";
+import footerstyles from "@/styles/footer.module.scss"
 gsap.registerPlugin(ScrollTrigger);
 export default function PrevGoonj({ refer }: prevGoonjProp) {
   const ref = useRef<HTMLDivElement>(null);
@@ -87,13 +88,13 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
           extra, over and above the specified INR
         </p>
         <div className={styles.pastEvents}>
-          {events.slice(0, 5).map((event, index) => {
+          {events.slice(0, 6).map((event, index) => {
             return <EventCard {...event} key={index} />;
           })}
         </div>
         <Link href="/events" style={{ width: "250px" }}>
           {" "}
-          <p>Show More -&gt;</p>
+
         </Link>
         <p>
           *Most of the cash prizes have already been distributed by us. In case
@@ -107,13 +108,26 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
           })}
         </div>
       </div>
-      <p>Goonj, UIET PU CHD</p>
-      <p>
+      <div className={footerstyles.footer}>
+        <p style={{color:"white"}}>© Goonj&apos;24 Digital Operations</p>
+        <p style={{color:"white"}}>
         Design & Developed by{" "}
-        <a href="https://www.linkedin.com/in/yuvraj-bind/">
-          Yuvraj Bind & Maintain by Sachin Kumar Saroj
+      
+        <a href="/" style={{color:"white"}}>
+          Hitesh Bandhu,&nbsp;
         </a>
-      </p>
+        <a href="/" style={{color:"white"}}>
+            Kanika Tiwari,&nbsp;
+        </a>
+        <a href="/" style={{color:"white"}}>
+        Mayur Sehgal,&nbsp;
+        </a>
+        <a href="/" style={{color:"white"}}>
+          Bhargavi Goyal
+        </a>
+        </p>
+        <p style={{color:"white"}}>Powered By Quinji Tech Web Solutions</p>
+    </div>
     </div>
   );
 }

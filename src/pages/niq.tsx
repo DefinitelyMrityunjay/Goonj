@@ -3,6 +3,8 @@ import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
 import styles from "../styles/niq.module.scss"
 import Marque from "@/components/marque/marque";
+import Footer from "@/components/footer/footer";
+import footerstyles from "@/styles/footer.module.scss"
 export default function Niq(){
     return (
         <>
@@ -34,6 +36,26 @@ export default function Niq(){
            NIQ for Infrastructure</h2>
            <a className={styles.form} href="https://bit.ly/3HKl60g" download target="_blank" rel="noreferrer">Download Quotation Form</a>
            </div>
+           <div className={footerstyles.footer}>
+        <p>© Goonj&apos;24 Digital Operations</p>
+        <p>
+        Design & Developed by{" "}
+      
+        <a href="/">
+          Hitesh Bandhu,&nbsp;
+        </a>
+        <a href="/">
+            Kanika Tiwari,&nbsp;
+        </a>
+        <a href="/">
+        Mayur Sehgal,&nbsp;
+        </a>
+        <a href="/">
+          Bhargavi Goyal
+        </a>
+        </p>
+        <p>Powered By Quinji Tech Web Solutions</p>
+    </div>
           </main>
 
         </>

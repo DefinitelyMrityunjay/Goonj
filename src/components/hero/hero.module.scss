@@ -19,7 +19,15 @@
     font-size: 0.5rem;
     font-size: 30px;
     font-family: Oswald, sans-serif;
+    &:hover{
+      color: red;
+      transform: scale(1.3);
+    }
+    span{
+      animation: rightleft 1.5s ease-out 2s infinite forwards;
+    }
   }
+  
   .scrollDown {
     position: fixed;
     top: 85%;
@@ -29,7 +37,6 @@
     font-family: "Roboto mono", monospace;
     font-weight: 600;
     letter-spacing: 0.3rem;
-    animation: scrollDown 1.5s ease-out 2s infinite forwards;
   }
 }
 
@@ -44,6 +51,7 @@
     top: 85%;
   }
 }
+
 
 @media screen and (max-width: 1200px) {
   .container {
