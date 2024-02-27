@@ -72,7 +72,9 @@ The event will include Coding Competitions, Mini Marathon, an E-Sports Tournamen
             <div className={footerstyles.footer}>
         <p>© Goonj&apos;24 Digital Operations</p>
         <p>
-        Design & Developed by{" "}
+        <p>Designed by Akashdeep</p> 
+        <br/> 
+        Developed by{" "}
       
         <a href="/">
           Hitesh Bandhu,&nbsp;
@@ -87,7 +89,7 @@ The event will include Coding Competitions, Mini Marathon, an E-Sports Tournamen
           Bhargavi Goyal
         </a>
         </p>
-        <p>Powered By Quinji Tech Web Solutions</p>
+        <p>Powered By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
         </div>
     )

@@ -111,7 +111,9 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
       <div className={footerstyles.footer}>
         <p style={{color:"white"}}>© Goonj&apos;24 Digital Operations</p>
         <p style={{color:"white"}}>
-        Design & Developed by{" "}
+        Designed by Akashdeep 
+        <br/> 
+        Developed by{" "}
       
         <a href="/" style={{color:"white"}}>
           Hitesh Bandhu,&nbsp;
@@ -126,7 +128,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
           Bhargavi Goyal
         </a>
         </p>
-        <p style={{color:"white"}}>Powered By Quinji Tech Web Solutions</p>
+        <p style={{color:"white"}}>Powered By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
     </div>
   );
