@@ -20,7 +20,7 @@ export default function Popup({ setpopup }: popupProp) {
             <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO0iT50y?si=12f6ac7fe8384a76">
               <Image
                 className={styles.img}
-                src="/artist/march.png"
+                src="/artist/Kulwinder Billa.png"
                 alt="startnight"
                 width={1414}
                 height={2000}

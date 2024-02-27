@@ -40,8 +40,10 @@ const EventsPage = () => {
         ))}
         <div className={footerstyles.footer}>
         <p>© Goonj&apos;24 Digital Operations</p>
-        <p>
-        Design & Developed by{" "}
+        <p style={{color:"white"}}>
+        Designed by Akashdeep 
+        <br/> 
+        Developed by{" "}
       
         <a href="/">
           Hitesh Bandhu,&nbsp;
@@ -56,7 +58,7 @@ const EventsPage = () => {
           Bhargavi Goyal
         </a>
         </p>
-        <p>Powered By Quinji Tech Web Solutions</p>
+        <p>Powered By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
       </div>
       <style jsx>{`

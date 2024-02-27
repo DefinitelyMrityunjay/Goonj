@@ -19,13 +19,13 @@ export default function Sponsers() {
         <header>
           <Navbar />
         </header>
-        <Image
+        {/* <Image
           className={styles.bg}
           src="/theme.png"
           alt="theme"
           width={1920}
           height={1080}
-        />
+        /> */}
         <div className={styles.tplayer}></div>
         <div className={styles.sponsors}>
           <div className={styles.event1}>
@@ -44,6 +44,7 @@ export default function Sponsers() {
                 alt="Edcosmo"
                 width={size}
                 height={size}
+                style={{ borderRadius: "10px" }}
               />
               <h3>Chaa-Gad</h3>
             </div>
@@ -56,6 +57,7 @@ export default function Sponsers() {
                 alt="MyFM"
                 width={size}
                 height={size}
+                style={{ borderRadius: "10px" }}
               />
               <h3>Rank Spiders Digital Academy</h3>
             </div>
@@ -66,15 +68,32 @@ export default function Sponsers() {
                 alt="MyFM"
                 width={300}
                 height={size+20}
+                style={{ borderRadius: "10px", border: "20px solid white" }}
               />
               
               <h3>EaseMyTrip.com</h3>
             </div>
+            <div>
+            <Image
+                className={styles.white}
+                src="/sponsors/newSponsors/pu pulse.png"
+                alt="MyFM"
+                width={300}
+                height={size+20}
+                style={{ borderRadius: "10px", border: "20px solid white" }}
+              />
+              
+              <h3>Youth Media Partner - PU Pulse</h3>
+            </div>
           </div>
           <div className={footerstyles.footer} >
+        
+          <div style={{border: "2px solid white"}}></div>
         <p style={{color:"white"}}>© Goonj&apos;24 Digital Operations</p>
         <p style={{color:"white"}}>
-        Design & Developed by{" "}
+       Designed by Akashdeep  
+        <br/> 
+        Developed by{" "}
       
         <a href="/" style={{color:"white"}}>
           Hitesh Bandhu,&nbsp;
@@ -89,7 +108,7 @@ export default function Sponsers() {
           Bhargavi Goyal
         </a>
         </p>
-        <p style={{color:"white"}}>Powered By Quinji Tech Web Solutions</p>
+        <p style={{color:"white"}}>Powered By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
         </div>
       </main>
