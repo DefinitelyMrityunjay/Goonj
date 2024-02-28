@@ -29,7 +29,7 @@ export default function Sponsers() {
         <div className={styles.tplayer}></div>
         <div className={styles.sponsors}>
           <div className={styles.event1}>
-          <img src="/events-hero.svg" alt="Event Banner" />
+          <img src="/sponsors_hero.svg" alt="Event Banner" />
           </div>
           <div className={styles.sponsersWrapper}>
           <div className={styles.sps}>
@@ -51,6 +51,7 @@ export default function Sponsers() {
 
 
             <div>
+            <h3 style={{fontFamily:"Protest Riot"}}>Digital Media Partner</h3>
               <Image
                 className={styles.white}
                 src="/sponsors/newSponsors/rankspiders.jpg"
@@ -62,6 +63,7 @@ export default function Sponsers() {
               <h3>Rank Spiders Digital Academy</h3>
             </div>
             <div>
+            <h3 style={{fontFamily:"Protest Riot"}}>Travel Partner</h3>
             <Image
                 className={styles.white}
                 src="/sponsors/newSponsors/easemytrip.png"
@@ -74,6 +76,7 @@ export default function Sponsers() {
               <h3>EaseMyTrip.com</h3>
             </div>
             <div>
+            <h3 style={{fontFamily:"Protest Riot"}}>Youth Media Partner</h3>
             <Image
                 className={styles.white}
                 src="/sponsors/newSponsors/pu pulse.png"
@@ -83,7 +86,20 @@ export default function Sponsers() {
                 style={{ borderRadius: "10px", border: "20px solid white" }}
               />
               
-              <h3>Youth Media Partner - PU Pulse</h3>
+              <h3>PU Pulse</h3>
+            </div>
+            <div>
+            <h3 style={{fontFamily:"Protest Riot"}}>Web Development and Security Sponsor</h3>
+            <Image
+                className={styles.white}
+                src="/sponsors/newSponsors/Quinji.png"
+                alt="MyFM"
+                width={300}
+                height={size+20}
+                // style={{ borderRadius: "10px", border: "20px solid white" }}
+              />
+              
+              <h3>Quinji Tech</h3>
             </div>
           </div>
           <div className={footerstyles.footer} >
@@ -108,7 +124,7 @@ export default function Sponsers() {
           Bhargavi Goyal
         </a>
         </p>
-        <p style={{color:"white"}}>Powered By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
+        <p style={{color:"white"}}>Powered and Secured By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
         </div>
       </main>

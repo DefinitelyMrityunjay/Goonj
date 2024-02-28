@@ -66,7 +66,7 @@ export default function Artist() {
           Bhargavi Goyal
         </a>
         </p>
-        <p>Powered By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
+        <p>Powered and Secured By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
       </main>
     </>

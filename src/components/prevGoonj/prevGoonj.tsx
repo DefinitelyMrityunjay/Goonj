@@ -128,7 +128,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
           Bhargavi Goyal
         </a>
         </p>
-        <p style={{color:"white"}}>Powered By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
+        <p style={{color:"white"}}>Powered and Secured By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
     </div>
   );
