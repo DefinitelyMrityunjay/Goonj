@@ -1,8 +1,15 @@
 .container {
+  .line{
+    margin: auto;
+    width: 70vw;
+    height: 2px;
+    background: #fff;
+  }
   width: 100%;
   padding: 2rem;
   text-align: center;
   .first {
+    color: #fff;
     margin-top: 100vh;
     height: fit-content;
     display: flex;
@@ -97,6 +104,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .stars{
+    flex-direction: column;
+  }
   .container {
     padding: 0.7rem;
     .first {

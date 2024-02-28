@@ -50,8 +50,6 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
         <h2>Glimpse of Goonj 2023</h2>
         <div className={styles.videoContainer}>
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/48SC6qk2MDY?si=q-nmDroPd6Y1qPDI"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -109,6 +107,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
         </div>
       </div>
       <div className={footerstyles.footer}>
+        <div className={styles.line}></div>
         <p style={{color:"white"}}>© Goonj&apos;24 Digital Operations</p>
         <p style={{color:"white"}}>
         Designed by Akashdeep 
