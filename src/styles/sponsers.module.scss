@@ -42,30 +42,34 @@ $bg-gradient: linear-gradient(
         padding: .5rem 2rem;
     }
  }
- .sponsors{
+ .sponsors {
     margin-top: 20vh;
-    position:absolute;
+    position: absolute;
     width: 100%;
     z-index: 2;
     height: fit-content;
     text-align: center;
     color: azure;
     font-family: 'Oswald', sans-serif;
-    h2{
+    h2 {
         font-weight: 700;
         font-size: 2rem;
         margin: 1rem 0;
-        
     }
-    h3{
+    h3 {
         font-weight: 300;
         font-size: 1.5rem;
         margin: 1rem 0;
     }
-    p{
+    p {
         margin-bottom: 2rem;
     }
- }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 }
 @media screen and (max-width:700px) {
     .main{
