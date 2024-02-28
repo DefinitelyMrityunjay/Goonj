@@ -47,6 +47,7 @@ export default function Sponsers() {
                 style={{ borderRadius: "10px" }}
               />
               <h3>Chaa-Gad</h3>
+              <br/> 
             </div>
 
 
@@ -61,6 +62,7 @@ export default function Sponsers() {
                 style={{ borderRadius: "10px" }}
               />
               <h3>Rank Spiders Digital Academy</h3>
+              <br/> 
             </div>
             <div>
             <h3 style={{fontFamily:"Protest Riot"}}>Travel Partner</h3>
@@ -74,6 +76,7 @@ export default function Sponsers() {
               />
               
               <h3>EaseMyTrip.com</h3>
+              <br/> 
             </div>
             <div>
             <h3 style={{fontFamily:"Protest Riot"}}>Youth Media Partner</h3>
@@ -87,6 +90,7 @@ export default function Sponsers() {
               />
               
               <h3>PU Pulse</h3>
+              <br/> 
             </div>
             <div>
             <h3 style={{fontFamily:"Protest Riot"}}>Web Development and Security Sponsor</h3>
@@ -100,6 +104,7 @@ export default function Sponsers() {
               />
               
               <h3>Quinji Tech</h3>
+              <br/> 
             </div>
           </div>
           <div className={footerstyles.footer} >
