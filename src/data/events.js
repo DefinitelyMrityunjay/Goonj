@@ -6,13 +6,7 @@ export const events = [
     "height": 200,
     "registerLink": ""
   },
-  {
-    "src": "/newEvents/comedy hunt.jpg",
-    "alt": "comedy hunt",
-    "width": 180,
-    "height": 200,
-    "registerLink": ""
-  },
+  
   {
     "src": "/newEvents/dhol di raat.jpg",
     "alt": "dhol di raat",
@@ -65,6 +59,13 @@ export const events = [
   {
     "src": "/newEvents/garjan.jpg",
     "alt": "garjan",
+    "width": 180,
+    "height": 200,
+    "registerLink": ""
+  },
+  {
+    "src": "/newEvents/comedy hunt.jpg",
+    "alt": "comedy hunt",
     "width": 180,
     "height": 200,
     "registerLink": ""
