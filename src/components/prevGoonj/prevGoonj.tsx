@@ -87,7 +87,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
         </p>
         <div className={styles.pastEvents}>
           {events.slice(0, 6).map((event, index) => {
-            return <EventCard {...event} key={index} />;
+            return <EventCard {...event} alt={event.alt.toUpperCase()} key={index} className={styles.eventCard}/>;
           })}
         </div>
         <Link href="/events" style={{ width: "250px" }}>
