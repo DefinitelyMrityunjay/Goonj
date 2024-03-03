@@ -20,7 +20,7 @@ const EventsPage = () => {
             <img src={event.src} alt={event.alt} />
             <div className="eventsCardData">
             <h2 className="event-name">{event.eventName.toUpperCase()}</h2>
-            <div className ="eventOrg">Organised by: {event.organizingClub}</div>
+            {/* <div className ="eventOrg">Organised by: {event.organizingClub}</div>
 
             <div className="events-sub">
             <div><FontAwesomeIcon icon={faCalendarAlt} /> {event.date}</div>
@@ -33,7 +33,7 @@ const EventsPage = () => {
             </div>
             <div  className="events-sub">
             <div>{event.registrationFee} <FontAwesomeIcon icon={faMoneyBillAlt} /></div>
-            </div>
+            </div> */}
             <div className="eventReg"><a href={event.registerLink} >Register Now</a></div>
             </div>
           </div>
@@ -108,12 +108,11 @@ const EventsPage = () => {
         }
 
         .event-card img {
-        width:auto;
-        height:150px;
+        width: auto;
+        height: auto;
         padding-bottom:5px;
-          border-radius: 10px 10px 0 0;
-          object-fit: cover;
-          
+        border-radius: 10px 10px 0 0; 
+        object-fit: cover;
         }
 
         .eventsCardData{
