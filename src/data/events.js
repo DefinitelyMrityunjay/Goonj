@@ -66,8 +66,8 @@ export const events = [
   {
     "src": "/newEvents/comedy hunt.jpg",
     "alt": "comedy hunt",
-    "width": 180,
-    "height": 200,
+    "width": 400,
+    "height": 500,
     "registerLink": ""
   }
 ];
