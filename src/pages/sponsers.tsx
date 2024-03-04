@@ -42,7 +42,7 @@ export default function Sponsers() {
                 className={styles.white}
                 src="/sponsors/newSponsors/chaigad.jpg"
                 alt="Edcosmo"
-                width={size}
+                width={size*2}
                 height={size}
                 style={{ borderRadius: "10px" }}
               />
@@ -57,7 +57,7 @@ export default function Sponsers() {
                 className={styles.white}
                 src="/sponsors/newSponsors/rankspiders.jpg"
                 alt="MyFM"
-                width={size}
+                width={size*1.6}
                 height={size}
                 style={{ borderRadius: "10px" }}
               />
@@ -70,7 +70,7 @@ export default function Sponsers() {
                 className={styles.white}
                 src="/sponsors/newSponsors/easemytrip.png"
                 alt="MyFM"
-                width={300}
+                width={300*1.3}
                 height={size+20}
                 style={{ borderRadius: "10px", border: "20px solid white" }}
               />
@@ -84,7 +84,7 @@ export default function Sponsers() {
                 className={styles.white}
                 src="/sponsors/newSponsors/pu pulse.png"
                 alt="MyFM"
-                width={300}
+                width={300*1.2}
                 height={size+20}
                 style={{ borderRadius: "10px", border: "20px solid white" }}
               />

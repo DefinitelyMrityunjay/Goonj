@@ -109,7 +109,7 @@ export default function Navbar({ color }: navProp) {
         {showNav && (
           <ul className={styles.right} style={{ backgroundColor: color }}>
             <li>
-              <Link href="/niq">NIQ</Link>
+              <Link href="/niq">INFO</Link>
             </li>
 
             <li>
