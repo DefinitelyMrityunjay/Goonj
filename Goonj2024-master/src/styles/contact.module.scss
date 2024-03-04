@@ -1,0 +1,160 @@
+$bg-gradient: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.6) 0%,
+  rgba(0,0,0,.8) 80%,
+  rgba(0, 0, 0, 0.9) 100%
+);
+
+.main {
+  .bgposter {
+    position: fixed;
+    top: 0;
+    .bgIMG {
+      width: 100vw;
+    }
+    z-index: -10;
+    opacity: 1;
+  }
+  .imgDIV {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    .FacultyStudentClicks {
+      display: flex;
+      font-size: 30px;
+      align-items: center;
+      justify-content: space-evenly;
+      color: white;
+      margin-top: 30px;
+
+      li {
+        margin: 0 80px;
+        font-family: Oswald, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &.active {
+          border-bottom: 2px solid #fff; // Style for active button
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .top {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .FacultyOC {
+    margin-top: 100vh;
+  }
+
+  .contactNav {
+    position: fixed;
+    width: 100%;
+    top: 25%;
+    z-index: 2;
+
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+
+      li {
+        text-align: center;
+        width: 150px;
+        margin: 0 30vw;
+        color: azure;
+        font-family: Oswald, sans-serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+    }
+  }
+  .faculty,
+  .OC,
+  .SC {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: -1;
+
+    & > :nth-child(n) {
+      width: 28%;
+      padding: 10vh 10px;
+      margin: 1rem 10%;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    .img {
+      position: absolute;
+      width: 180px;
+      top: 0;
+      left: 50;
+      height: auto;
+      z-index: 0;
+    }
+    .imgDIV {
+      .FacultyStudentClicks {
+        font-size: 15px;
+        li {
+          font-family: Oswald, sans-serif;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          margin: 0 10px;
+
+          &.active {
+            border-bottom: 2px solid #fff; // Style for active button
+          }
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .contactNav {
+      ul {
+        width: 80vw;
+        li {
+          margin: 0, 10px;
+        }
+      }
+    }
+    .faculty,
+    .OC,
+    .SC {
+      position: absolute;
+      top: 50%;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+      z-index: -1;
+      & > :nth-child(n) {
+        width: 50%;
+      }
+    }
+  }
+}
