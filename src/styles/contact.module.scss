@@ -1,9 +1,9 @@
-// $bg-gradient: linear-gradient(
-//   180deg,
-//   rgba(0, 0, 0, 0.6) 0%,
-//   rgba(0,0,0,.8) 80%,
-//   rgba(0, 0, 0, 0.9) 100%
-// );
+$bg-gradient: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.6) 0%,
+  rgba(0,0,0,.8) 80%,
+  rgba(0, 0, 0, 0.9) 100%
+);
 
 .main {
   .bgposter {
@@ -37,31 +37,20 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      }
-      li:hover {
-        cursor: pointer;
-      }
-      div {
-        display: flex;
-        div {
-          display: block;
+
+        &.active {
+          border-bottom: 2px solid #fff; // Style for active button
+        }
+
+        &:hover {
+          cursor: pointer;
         }
       }
-    }
-    .img {
-      position: relative;
-
-      // margin: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      //   width: 50%;
     }
   }
 
   .top {
     position: fixed;
-    // background: black;
     width: 100%;
     height: 100vh;
     top: 0;
@@ -77,9 +66,11 @@
     width: 100%;
     top: 25%;
     z-index: 2;
+
     ul {
       display: flex;
       justify-content: space-evenly;
+
       li {
         text-align: center;
         width: 150px;
@@ -102,6 +93,7 @@
     justify-content: center;
     flex-wrap: wrap;
     z-index: -1;
+
     & > :nth-child(n) {
       width: 28%;
       padding: 10vh 10px;
@@ -130,6 +122,14 @@
           justify-content: center;
           align-items: center;
           margin: 0 10px;
+
+          &.active {
+            border-bottom: 2px solid #fff; // Style for active button
+          }
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
@@ -138,7 +138,6 @@
       ul {
         width: 80vw;
         li {
-          //   font-size: clamp(1rem, 3vw, 1.2rem);
           margin: 0, 10px;
         }
       }

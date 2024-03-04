@@ -36,7 +36,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
     };
   }, [refer, ref]);
 
-  return (
+  return (<>
     <div className={styles.container} ref={bg}>
       <div className={styles.first}>
         <p>
@@ -70,14 +70,14 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
               })}
             </div>
           </div>
-          <div className="Comedy Night">
+          {/* <div className="Comedy Night">
             <h2>Comedy Night</h2>
             <div className={styles.pastArtists}>
               {anchor.map((artist, index) => {
                 return <EventTile {...artist} key={index} />;
               })}
             </div>
-          </div>
+          </div> */}
         </div>
 
         <h2>Events</h2>
@@ -94,11 +94,11 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
           {" "}
 
         </Link>
-        <p>
+        {/* <p>
           *Most of the cash prizes have already been distributed by us. In case
           of any Pending prize money please contact Prof. Harbhinder Singh,
           Incharge, Spot purchase committee, Goonj 2023, Contact at 9316103516.
-        </p>
+        </p> */}
         <h2>Past Events</h2>
         <div className={styles.pastEvents}>
           {pastEvent.map((event, index) => {
@@ -106,7 +106,9 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
           })}
         </div>
       </div>
-      <div className={footerstyles.footer}>
+      
+    </div>
+    <div className={footerstyles.footer} style={{background:"#000"}}>
         <div className={styles.line}></div>
         <p style={{color:"white"}}>© Goonj&apos;24 Digital Operations</p>
         <p style={{color:"white"}}>
@@ -129,6 +131,6 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
         </p>
         <p style={{color:"white"}}>Powered and Secured By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
-    </div>
+    </>
   );
 }

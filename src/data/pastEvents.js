@@ -53,7 +53,7 @@ export const pastEvent = [
 ];
 export const pastArtist = [
   {
-    src: "/artist/march.png",
+    src: "/artist/Kulwinder Billa.png",
     alt: "Kulwinder Billa",
     title: "Kulwinder Billa",
     width: 28 * 7,

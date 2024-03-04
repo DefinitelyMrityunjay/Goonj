@@ -5,15 +5,16 @@ import { Faculty, OC } from "../data/contact";
 import styles from "../styles/contact.module.scss";
 import { useState } from "react";
 import Profile from "@/components/profile/profile";
-import footerstyles from "@/styles/footer.module.scss"
+import footerstyles from "@/styles/footer.module.scss";
 
 export default function Contact() {
   const [type, setType] = useState<string>("OC");
+  
   return (
     <>
       <Head>
         <title>Goonj 2024 | Contacts</title>
-        <meta name="Goonj" content="Goonj 2024, UIET,PU CHD" />
+        <meta name="Goonj" content="Goonj 2024, UIET, PU CHD" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -33,7 +34,6 @@ export default function Contact() {
         <div className={styles.imgDIV}>
           <div>
             <div id="CONTACT_IMG">
-              {" "}
               <Image
                 className={styles.img}
                 src="/contactus.png"
@@ -43,22 +43,11 @@ export default function Contact() {
               />
             </div>
             <ul className={styles.FacultyStudentClicks}>
-              <li onClick={() => setType("Faculty")}>Core Faculty Team</li>
-
-              <li onClick={() => setType("OC")}>Core Students Team</li>
+              <li className={type === "Faculty" ? styles.active : ""} onClick={() => setType("Faculty")}>Core Faculty Team</li>
+              <li className={type === "OC" ? styles.active : ""} onClick={() => setType("OC")}>Core Students Team</li>
             </ul>
-            <div></div>
-
-            <div></div>
           </div>
-        </div>{" "}
-        {/* <Image 
-            className={styles.img}
-            src="/theme2.jpg"
-            alt="theme"
-            width={1892}
-            height={628}
-            /> */}
+        </div>
         <div className={styles.top}></div>
         <nav className={styles.contactNav}></nav>
         {type == "Faculty" && (
@@ -75,6 +64,7 @@ export default function Contact() {
             })}
           </div>
         )}
-    </div> </>
+      </div>
+    </>
   );
 }

@@ -39,6 +39,13 @@
         margin-top: -60px;
     }
 
+    .niqBtn {
+        /* display: flex; */ /* Remove this line */
+        /* flex-direction: column; */ /* Remove this line */
+        height: 80vh;
+        width: 100vw;
+        background-color: antiquewhite;
+      }
         .heading{
             color:rgb(253, 253, 253);
             font-family: 'Poppins', sans-serif;
