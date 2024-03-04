@@ -1,0 +1,109 @@
+.page-container {
+    margin: 0 20px;
+    font-size: 14px; // Add left and right margin
+  }
+  
+  .banner {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    img {
+      max-width: 100%;
+    }
+  }
+  
+  .events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px; // Negative margin to compensate for card padding
+  }
+  
+  .event-card {
+    flex-basis: calc(33.33% - 20px); 
+    min-width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 14px 14px 12px rgba(0, 0, 0, 0.7);
+    position: relative;
+    overflow: hidden; // Hide overflow
+    
+    img {
+      width: auto;
+      height: 150px;
+      padding-bottom: 5px;
+      border-radius: 10px 10px 0 0;
+      object-fit: cover;
+    }
+    
+    .eventsCardData {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .event-name {
+      text-transform: uppercase;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 8px;
+    }
+    
+    .eventOrg {
+      font-size: 18px;
+      text-align: center;
+    }
+    
+    .events-sub {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 5px;
+      
+      div {
+        border-radius: 50px;
+        border: 2px solid black;
+        padding: 8px;
+      }
+    }
+    
+    .eventReg {
+      position: relative;
+      width: 75%;
+      background-color: #007bff;
+      text-align: center;
+      padding: 15px;
+      border-radius: 50px;
+      
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .event-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .event-card {
+      width: 100%;
+    }
+  }
+  
