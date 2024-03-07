@@ -107,9 +107,7 @@ export default function Sponsers() {
               <br/> 
             </div>
           </div>
-          <div className={footerstyles.footer} >
-        
-          <div style={{border: "2px solid white"}}></div>
+          <div className={footerstyles.footer} style={{backgroundColor:"#252525"}} >
         <p style={{color:"white"}}>© Goonj&apos;24 Digital Operations</p>
         <p style={{color:"white"}}>
        Designed by Akashdeep  
