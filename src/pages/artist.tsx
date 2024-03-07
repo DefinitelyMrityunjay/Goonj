@@ -46,7 +46,7 @@ export default function Artist() {
             />
           </div>
         </div>
-        <div className={footerstyles.footer}>
+        <div className={footerstyles.footer} style={{backgroundColor:"#1c1919"}}>
         <p>© Goonj&apos;24 Digital Operations</p>
         <p style={{color:"white"}}>
         Designed by Akashdeep 
