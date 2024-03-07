@@ -9,7 +9,7 @@ import footerstyles from "@/styles/footer.module.scss";
 
 export default function Contact() {
   const [type, setType] = useState<string>("OC");
-  
+
   return (
     <>
       <Head>
@@ -18,18 +18,19 @@ export default function Contact() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className={styles.bg}></div>
       <div className={styles.main}>
         <header>
           <Navbar />
         </header>
         <div className={styles.bgposter}>
-          <Image
+          {/* <Image
             src="/contact.png"
             alt="contact"
             width={1500}
             height={1000}
             className="bgIMG"
-          />
+          /> */}
         </div>
         <div className={styles.imgDIV}>
           <div>
@@ -43,8 +44,18 @@ export default function Contact() {
               />
             </div>
             <ul className={styles.FacultyStudentClicks}>
-              <li className={type === "Faculty" ? styles.active : ""} onClick={() => setType("Faculty")}>Core Faculty Team</li>
-              <li className={type === "OC" ? styles.active : ""} onClick={() => setType("OC")}>Core Students Team</li>
+              <li
+                className={type === "Faculty" ? styles.active : ""}
+                onClick={() => setType("Faculty")}
+              >
+                Core Faculty Team
+              </li>
+              <li
+                className={type === "OC" ? styles.active : ""}
+                onClick={() => setType("OC")}
+              >
+                Core Students Team
+              </li>
             </ul>
           </div>
         </div>

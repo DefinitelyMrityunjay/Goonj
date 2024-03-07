@@ -1,5 +1,5 @@
-const h = 200;
-const w = 180;
+const h = 220;
+const w = 200;
 export const pastEvent = [
   {
     src: "/oldGoonj/50797113_634459790340543_3718315146437748733_n.jpg",
@@ -56,8 +56,8 @@ export const pastArtist = [
     src: "/artist/Kulwinder Billa.png",
     alt: "Kulwinder Billa",
     title: "Kulwinder Billa",
-    width: 28 * 7,
-    height: 280,
+    width: 36 * 7,
+    height: 360,
   },
 ];
 
@@ -67,7 +67,7 @@ export const anchor = [
     alt: "Comedian",
     title: " ",
     degi: "",
-    width: 28 * 7,
-    height: 280,
+    width: 36 * 7,
+    height: 360,
   },
 ];

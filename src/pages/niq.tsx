@@ -36,29 +36,53 @@ export default function Niq() {
             <br />
             Information brochure
           </h2>
-    <div className="niqBtn" style={{ display: "flex", justifyContent: "space-between", maxWidth: "800px", margin: "0 auto" }}>
-    <a
-      className={styles.form}
-      href="https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/marketing%20brochures%2Fmarketing%20brochure%20original_compressed.pdf?alt=media&token=57b3168f-bbc3-4a2e-82c7-22f41311cd1f"
-      download
-      target="_blank"
-      rel="noreferrer"
-      style={{ width: "calc(33.33% - 5px)", textAlign: "center", backgroundColor: "#007bff", color: "#fff", textDecoration: "none", padding: "10px", borderRadius: "5px" }}
-    >
-      Marketing brochure
-    </a>
+          <div
+            className="niqBtn"
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              maxWidth: "800px",
+              margin: "0 auto",
+            }}
+          >
+            <a
+              className={styles.form}
+              href="https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/marketing%20brochures%2Fmarketing%20brochure%20original_compressed.pdf?alt=media&token=57b3168f-bbc3-4a2e-82c7-22f41311cd1f"
+              download
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                width: "calc(33.33% - 5px)",
+                textAlign: "center",
+                backgroundColor: "#CD001As",
+                color: "#fff",
+                textDecoration: "none",
+                padding: "10px",
+                borderRadius: "5px",
+              }}
+            >
+              Marketing brochure
+            </a>
 
-    <a
-      className={styles.form}
-      href="https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/marketing%20brochures%2Fevent%20brochure%20original_compressed-1.pdf?alt=media&token=f57b1e95-1908-4513-b415-dc12eacbfdfe"
-      download
-      target="_blank"
-      rel="noreferrer"
-      style={{ width: "calc(33.33% - 5px)", textAlign: "center", backgroundColor: "#007bff", color: "#fff", textDecoration: "none", padding: "10px", borderRadius: "5px" }}
-    >
-      Events brochure
-    </a>
-</div>
+            <a
+              className={styles.form}
+              href="https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/marketing%20brochures%2Fevent%20brochure%20original_compressed-1.pdf?alt=media&token=f57b1e95-1908-4513-b415-dc12eacbfdfe"
+              download
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                width: "calc(33.33% - 5px)",
+                textAlign: "center",
+                backgroundColor: "#CD001A",
+                color: "#fff",
+                textDecoration: "none",
+                padding: "10px",
+                borderRadius: "5px",
+              }}
+            >
+              Events brochure
+            </a>
+          </div>
         </div>
       </main>
     </>

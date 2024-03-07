@@ -1,5 +1,5 @@
 .container {
-  .line{
+  .line {
     margin: auto;
     width: 70vw;
     height: 2px;
@@ -42,7 +42,7 @@
     }
     .videoContainer {
       width: 68%;
-      height:60vh;
+      height: 60vh;
       margin-bottom: 15px;
       .video {
         width: 100%;
@@ -52,10 +52,9 @@
 
     .videoContainer iframe {
       width: 100%;
-      height:100%;
+      height: 100%;
       /* Remove the height property to maintain the aspect ratio */
     }
-    
 
     .themeRelease {
       display: flex;
@@ -81,9 +80,28 @@
       display: flex;
       justify-content: space-between;
     }
+    #MoreEvents {
+      background: #9f0000;
+      text-align: center;
+      display: flex;
+      font-family: "Oswald", sans-serif;
+      text-decoration: none;
+      font-size: 22px;
+      color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
 
     .pastEvents {
       // margin: 0 3rem 3rem 3rem ;
+      width: 100%;
+      display: flex;
+      justify-content: left;
+      overflow-x: scroll;
+    }
+
+    .pastEvents2 {
+      margin: 0 3rem 3rem 3rem;
       width: 100%;
       display: flex;
       justify-content: left;
@@ -94,7 +112,6 @@
       justify-content: center;
     }
   }
-  
 }
 
 @media screen and (max-width: 1200px) {
@@ -115,7 +132,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .stars{
+  .stars {
     flex-direction: column;
   }
   .container {
@@ -140,4 +157,3 @@
     }
   }
 }
-
