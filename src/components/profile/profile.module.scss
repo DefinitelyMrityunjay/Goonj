@@ -1,30 +1,52 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: fit-content;
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  // background-image: linear-gradient(
+  //   to right top,
+  //   #812b1c,
+  //   #d03118,
+  //   #b52312,
+  //   #9a160c,
+  //   #800704
+  // );
+  background: #000;
+  border: solid 1px #db6200;
+  box-shadow: #e8330a 0 5px 20px;
 
-    .img{
-        border-radius: 50%;
-        border: 4px solid #F04591;
-    }
-    .name{
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
-        font-weight: 600;
-        color: black;
-        padding: .7rem;
-    }
-    p{
-        font-family: 'Poppins', sans-serif;
-
-    }
+  .img {
+    border-radius: 10%;
+    width: 20vw;
+    height: auto;
+    border: 2px solid #da6403;
+  }
+  .whatsapp {
+    margin: 10px 0;
+  }
+  .name {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    padding: 0.7rem;
+  }
+  p {
+    font-family: "Oswald", sans-serif;
+  }
+  .mail {
+    margin: 20px 0;
+  }
+  .des {
+    color: white;
+  }
 }
-@media screen and (max-width:900px) {
-    .container{
-        .name{
-            font-size: clamp(.8rem, 2.5vw, 1.2rem);
-        }
+@media screen and (max-width: 900px) {
+  .container {
+    .name {
+      font-size: clamp(0.8rem, 2.5vw, 1.2rem);
     }
+  }
 }

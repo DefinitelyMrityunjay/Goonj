@@ -1,91 +1,108 @@
-.main{
-    width: 100%;
+.page-container {
+  margin: 0 20px;
+  font-size: 14px; // Add left and right margin
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 20px;
+  
+  img {
+    max-width: 100%;
+  }
+}
+
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px; // Negative margin to compensate for card padding
+}
+
+.event-card {
+  flex-basis: calc(33.33% - 20px); 
+  min-width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 20px;
+  height: auto;
+  box-shadow: 14px 14px 12px rgba(0, 0, 0, 0.7);
+  position: relative;
+  overflow: hidden; // Hide overflow
+  
+  img {
+    width: auto;
+    height: 150px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+  }
+  
+  .eventsCardData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .event-name {
+    text-transform: uppercase;
+    font-size: 24px;
     text-align: center;
-    .bgred{
-        position:fixed;
-        left:0;
-        top:0;
-        width: 100%;
-        height: 100%;
+    padding-top: 8px;
+  }
+  
+  .eventOrg {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .events-sub {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 5px;
+    
+    div {
+      border-radius: 50px;
+      border: 2px solid black;
+      padding: 8px;
     }
-    .popup{
-        position:fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        z-index: 99;
-
-    }
-    .head{
-        position:fixed;
-        top:50%;
-        transform: translateY(-50%);
-        text-decoration: none;
-        width: 100%;
-        color:azure;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        font-size: 10rem;
-        z-index: 1;
-    }
-    .event{
-        padding-top: 100vh;
-        padding: 100vh 2rem 2rem 2rem;
-        position: absolute;
-        top:0;
-        left:0;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        .line{
-            width:100%;
-            height: 0;
-        }
-    }
-    .scrollDown{
-        position:fixed;
-        top:65%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        color: azure;
-        font-family:'Roboto mono', monospace;
-        font-weight: 600;
-        font-size: 1.3rem;
-        letter-spacing: .7rem;
-        animation: scrollDown 1.2s ease-out 2s infinite forwards;
-
-    }
-}
-
-@keyframes scrollDown {
-    0% {
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
+  }
+  
+  .eventReg {
+    position: relative;
+    width: 75%;
+    background-color: #007bff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+    
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
     }
     
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
 }
 
-@media screen and (max-width:700px) {
-    .main{
-        div{
+@media (max-width: 768px) {
+  .event-card {
+    width: calc(50% - 20px);
+  }
+}
 
-            .head{
-                font-size: clamp(2rem,20vw,10rem);
-            }
-            .scrollDown{
-                font-size: clamp(.7rem,3vw,1.3rem);
-            }
-        }
-        .event{
-            h2{
-                font-size: clamp(2rem,20vw ,10rem);
-    
-            }
-
-        }
-    }
+@media (max-width: 480px) {
+  .event-card {
+    width: 100%;
+  }
 }

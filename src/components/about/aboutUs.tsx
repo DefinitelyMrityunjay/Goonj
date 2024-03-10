@@ -1,4 +1,5 @@
 import Image from "next/image"
+import footerstyles from "@/styles/footer.module.scss"
 
 import styles from "./aboutUs.module.scss"
 export default function AboutUs(){
@@ -68,59 +69,27 @@ The event will include Coding Competitions, Mini Marathon, an E-Sports Tournamen
                 />
                 </div>
             </div>
-            <h3>News</h3>
-            <div className={styles.line}></div>
-            <div className={styles.news}>
-                <Image
-                className={styles.news1} 
-                src="/theme release news/WhatsApp Image 2023-02-08 at 1.07.25 PM.jpeg"
-                alt="news1"
-                width={1145}
-                height={1600}
-                />
-                <Image 
-                className={styles.news1} 
-                src="/theme release news/WhatsApp Image 2023-02-08 at 1.07.27 PM.jpeg"
-                alt="news1"
-                width={928}
-                height={1600}
-                />
-                <Image 
-                className={styles.news1} 
-                src="/star reveal news/WhatsApp Image 2023-02-11 at 10.04.39 AM.jpeg"
-                alt="news1"
-                width={1184}
-                height={1600}
-                />
-                <Image 
-                className={styles.news1} 
-                src="/theme release news/WhatsApp Image 2023-02-08 at 1.07.26 PM.jpeg"
-                alt="news1"
-                width={1076}
-                height={799}
-                />
-                <Image 
-                className={styles.news1} 
-                src="/theme release news/WhatsApp Image 2023-02-08 at 1.07.28 PM.jpeg"
-                alt="news1"
-                width={1184}
-                height={1600}
-                />
-                <Image 
-                className={styles.news1} 
-                src="/star reveal news/WhatsApp Image 2023-02-11 at 10.04.37 AM.jpeg"
-                alt="news1"
-                width={1184}
-                height={1600}
-                />
-                <Image 
-                className={styles.news1} 
-                src="/star reveal news/WhatsApp Image 2023-02-11 at 10.04.38 AM.jpeg"
-                alt="news1"
-                width={1184}
-                height={1600}
-                />
-            </div>
+            <div className={footerstyles.footer} style={{backgroundColor:"white"}}>
+        <div style={{color:"black"}}>
+            <p style={{color:"black"}}>© Goonj&apos;24 Digital Operations</p>
+            <p style={{color:"black"}}>Designed by Akashdeep</p>
+            <br/>
+            Developed by{" "}
+            <a href="/">
+              Hitesh Bandhu,&nbsp;
+            </a>
+            <a href="/">
+                Kanika Tiwari,&nbsp;
+            </a>
+            <a href="/">
+            Mayur Sehgal,&nbsp;
+            </a>
+            <a href="/">
+              Bhargavi Goyal
+            </a>
+            <p style={{color:"black"}}>Powered and Secured By <a style={{color:"black"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
+        </div>
+    </div>
         </div>
     )
 }
