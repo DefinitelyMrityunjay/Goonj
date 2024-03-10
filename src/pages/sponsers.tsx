@@ -33,9 +33,6 @@ export default function Sponsers() {
           </div>
           <div className={styles.sponsersWrapper}>
           <div className={styles.sps}>
-            <a href="https://bit.ly/3Yujgba" download>
-              APPLY FOR SPONSORSHIP
-            </a>
           </div>
             <div>
               <Image
@@ -108,25 +105,7 @@ export default function Sponsers() {
             </div>
           </div>
           <div className={footerstyles.footer} style={{backgroundColor:"#252525"}} >
-        <p style={{color:"white"}}>© Goonj&apos;24 Digital Operations</p>
-        <p style={{color:"white"}}>
-       Designed by Akashdeep  
-        <br/> 
-        Developed by{" "}
-      
-        <a href="/" style={{color:"white"}}>
-          Hitesh Bandhu,&nbsp;
-        </a>
-        <a href="/" style={{color:"white"}}>
-            Kanika Tiwari,&nbsp;
-        </a>
-        <a href="/" style={{color:"white"}}>
-        Mayur Sehgal,&nbsp;
-        </a>
-        <a href="/" style={{color:"white"}}>
-          Bhargavi Goyal
-        </a>
-        </p>
+          <p style={{color:"white"}}>Designed and Developed by <a href="https://hiteshbandhu05.notion.site/Goonj-24-Digital-Operations-b599af47a83b4ccbb6b0a621bb2922c9?pvs=74">© Goonj&apos;24 Digital Operations</a></p>
         <p style={{color:"white"}}>Powered and Secured By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
     </div>
         </div>

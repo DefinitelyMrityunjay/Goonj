@@ -1,132 +1,285 @@
 [
   {
-      "eventName": "Bhangra Wars",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/bhangra wars.jpg",
-      "alt": "bhangra wars",
-      "registerLink": "https://forms.gle/8jyHXBYPM7rkYZ1j7"
+    "eventName": "Groove Up",
+    "registerLink": "https://docs.google.com/forms/d/1500j0JT_C5Z-KIO97oASM-jveBo7S-XD38_nGVt6jLI/edit",
+    "src": "/newEvents/groove up.jpg",
+    "alt": "Groove Up"
   },
   {
-      "eventName": "Comedy Hunt",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/comedy Hunt.jpg",
-      "alt": "comedy hunt",
-      "registerLink": "https://forms.gle/2X5FsSvfvmriNBba8"
+    "eventName": "bhangra Group Dance",
+    "registerLink": "https://docs.google.com/forms/d/1TkpPDYGYD1qfWyfrcRwIZIGYKzupehZyJkuaZyUdkcE/edit",
+    "src": "/newEvents/bhangra group dance.png",
+    "alt": "bhangara Group Dance"
   },
   {
-      "eventName": "Dhol Di Raat",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/dhol di raat.jpg",
-      "alt": "dhol di raat",
-      "registerLink": ""
+    "eventName": "bhangara Wars",
+    "registerLink": "https://docs.google.com/forms/d/1_YtJt2xosljFsw8Oi5pJx31sAEhxZzthk9YX0FU9A7A/edit",
+    "src": "/newEvents/bhangra wars.jpg",
+    "alt": "bhangara Wars"
   },
   {
-      "eventName": "Groove Up",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/groove up.jpg",
-      "alt": "groove up",
-      "registerLink": "https://forms.gle/1H7RouNWDUFuCshx5"
+    "eventName": "CID",
+    "registerLink": "https://forms.gle/M8oX8wN5qRkrJSuR7",
+    "src": "/newEvents/cid.png",
+    "alt": "CID: Crack investigate decode"
   },
   {
-      "eventName": "Monologue",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/monologue.jpg",
-      "alt": "monologue",
-      "registerLink": "https://forms.gle/WeEhRm9AgjfkPmHA8"
+    "eventName": "Comedy Hunt",
+    "registerLink": "https://docs.google.com/forms/d/1J_zJ7DqAWsUJQvdb9WYj-qoZdgZjcDgIkPM7Ahkk_fU/edit",
+    "src": "/newEvents/comedy Hunt.jpg",
+    "alt": "Comedy Hunt"
   },
   {
-      "eventName": "Mr and Miss Goonj",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/mr and miss goonj.jpg",
-      "alt": "mr and miss goonj",
-      "registerLink": "https://forms.gle/AGE8P34UKWvn34NQA"
+    "eventName": "Worldly Wise",
+    "registerLink": "https://docs.google.com/forms/d/1qfgTWbdNiXVFOIPudF_MEQFgwH9fsdiVBHvDrpdhSYc/edit",
+    "src": "/newEvents/worldly wise.png",
+    "alt": "Geopolitical Quiz(Worldly Wise)"
   },
   {
-      "eventName": "Singing Solo",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/singing solo.jpg",
-      "alt": "singing solo",
-      "registerLink": "https://forms.gle/5i8kEA1ohT5yJmsr6"
+    "eventName": "Politia",
+    "registerLink": "https://docs.google.com/forms/d/18-PwAw9n5301b6ANAW9_ytczgPaj9Zleex0sNzDqkeI/edit",
+    "src": "/newEvents/politia.png",
+    "alt": "Indian Politics Quiz(Politia))"
   },
   {
-      "eventName": "Solo Instrumental",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/solo instrumental.jpg",
-      "alt": "solo instrumental",
-      "registerLink": "https://forms.gle/jFwVJU1XQwWpCGiu7"
+    "eventName": "Catch the stick",
+    "registerLink": "",
+    "src": "/newEvents/catch the stick.png",
+    "alt": "Catch the stick"
   },
   {
-      "eventName": "Salsa",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/salsa.jpg",
-      "alt": "salsa",
-      "registerLink": "https://forms.gle/kYnRoYFDC3evdPD39"
+    "eventName": "Team build game",
+    "registerLink": "",
+    "src": "/newEvents/team build.jpg",
+    "alt": "Team build game"
   },
   {
-      "eventName": "Garjan",
-      "date": "",
-      "time": "",
-      "members": "",
-      "venue": "",
-      "genre": "",
-      "registrationFee": "",
-      "organizingClub": "",
-      "src": "/newEvents/garjan.jpg",
-      "alt": "garjan",
-      "registerLink": ""
+    "eventName": "Snake and Ladder",
+    "registerLink": "",
+    "src": "/newEvents/humansnake.png",
+    "alt": "Snake and Ladder/Human Ludo"
+  },
+  {
+    "eventName": "Market me strange",
+    "registerLink": "https://docs.google.com/forms/d/1ZjMjXZ123a2huUKQBxTgjk3416IQxpxkQcW6XpppsDs/edit",
+    "src": "/newEvents/mms.png",
+    "alt": "Market me strange"
+  },
+  {
+    "eventName": "EDC Persona Pitch",
+    "registerLink": "https://docs.google.com/forms/d/1jVP8q6kbrx-juMrqDHo8TGYyCvQv7bXiMjkxRF1N7_w/edit",
+    "src": "/newEvents/epp.png",
+    "alt": "Pitch your dating"
+  },
+  {
+    "eventName": "RRR",
+    "registerLink": "https://docs.google.com/forms/d/10IKbA1ZG-srN9T_8tq_iiwcBK7OUf2V7Yyxy4Udt2iI/edit",
+    "src": "/newEvents/rrr.png",
+    "alt": "Rrr"
+  },
+  {
+    "eventName": "Band Performance",
+    "registerLink": "",
+    "src": "/newEvents/band performance.png",
+    "alt": "Band Performance"
+  },
+  {
+    "eventName": "solo instrumental",
+    "registerLink": "https://docs.google.com/forms/d/1Z2iUU6je7w26FWR13IdV975m_0kMNikPzLyxzoGkuBU/edit",
+    "src": "/newEvents/solo instrumental.jpg",
+    "alt": "solo instrumental"
+  },
+  {
+    "eventName": "solo Singing compertion",
+    "registerLink": "https://docs.google.com/forms/d/1_cezG3akbTLRyrUNbhqqOO6ItzLDB3yTMyAMVUIBRms/edit",
+    "src": "/newEvents/singing solo.jpg",
+    "alt": "solo Singing compertion"
+  },
+  {
+    "eventName": "Fifa Tournament",
+    "registerLink": "https://docs.google.com/forms/d/1iULGBdh90g1Ie2xQVn4cJIe_T_nkuUrZJKBL2JZtzhc/edit",
+    "src": "/newEvents/fifa tournament.png",
+    "alt": "Fifa Tournament"
+  },
+  {
+    "eventName": "Pictionary",
+    "registerLink": "",
+    "src": "/newEvents/pictionary.png",
+    "alt": "Skribble (technical pictionary ) stall game"
+  },
+  {
+    "eventName": "DebugQuest",
+    "registerLink": "https://docs.google.com/forms/d/1FVB8WlaGwMnE-VWOqa9MbB3jTZuhwtDfD9U5QazKyDw/edit?ts=65e605e1",
+    "src": "/newEvents/debug.png",
+    "alt": "DebugQuest (Stall )"
+  },
+  {
+    "eventName": "24-Hour Hackathon",
+    "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdzmt4_aNMdjErAjQDcmnYQP2fjJB-PcQgYouMotvdFppm9wA/viewform?usp=sf_link",
+    "src": "/newEvents/technovate.png",
+    "alt": "24-Hour Hackathon"
+  },
+  {
+    "eventName": "ML Ware",
+    "registerLink": "https://docs.google.com/forms/d/1hyjDvz36PynGM0k8qGl1ql6x399GQFLm7HOapz9gVJM/edit?ts=65e6059d",
+    "src": "/newEvents/ml ware.png",
+    "alt": "ML Ware"
+},
+{
+    "eventName": "salsa Fusion",
+    "registerLink": "https://docs.google.com/forms/d/1HrS45LHSXzLX41mwoJEuwDGeF0b1sNxlUjlGUcreLyw/edit",
+    "src": "/newEvents/salsa.jpg",
+    "alt": "salsa Fusion"
+},
+{
+    "eventName": "Mr&Mrs Goonj",
+    "registerLink": "https://docs.google.com/forms/d/1jNXDXV874wXPhgU98m0D7mnH21eoW_boOkcKjm-8Y5M/edit",
+    "src": "/newEvents/mr and miss goonj.jpg",
+    "alt": "Mr&Mrs Goonj"
+},
+{
+    "eventName": "BGMI",
+    "registerLink": "https://forms.gle/96xKtXF33YveL18A9",
+    "src": "/newEvents/pubg.png",
+    "alt": "BGMI"
+},
+{
+    "eventName": "Valorant",
+    "registerLink": "https://docs.google.com/forms/d/13XQNGhFeyHqiYrmunjlURWjkQfVjJWi7qLGN77KyxGM/edit",
+    "src": "/newEvents/valorant.png",
+    "alt": "Valorant"
+},
+{
+    "eventName": "IPL auction",
+    "registerLink": "https://docs.google.com/forms/d/1GWHiHbCmnEr_Sb9T-mfHXXFB5XoDDGT7w2mIgGqirhM/edit",
+    "src": "/newEvents/ipl auction.png",
+    "alt": "IPL auction"
+},
+{
+    "eventName": "Anime Quiz",
+    "registerLink": "https://docs.google.com/forms/d/1hkaeX7Zvqa4asAFUm3_r3UHUx4O4eJD8nmMesbY6-Nw/edit",
+    "src": "/newEvents/anime quiz.png",
+    "alt": "Anime Quiz"
+},
+{
+    "eventName": "BULLS & BEARS 2.0",
+    "registerLink": "https://docs.google.com/forms/d/1u3G7cvowrSDV2w3hM4ItWiI1iy4nwsTEJSMhZT2b70Y/edit",
+    "src": "/newEvents/bulls.png",
+    "alt": "BULLS & BEARS 2.0"
+},
+{
+    "eventName": "Tech Trivia",
+    "registerLink": "https://docs.google.com/forms/d/17KCW9xN3r9cZ5zHpuB5rX2iu4cdhkKG3OxLxdUCipGs/edit",
+    "src": "/newEvents/tech trivia.png",
+    "alt": "Tech Trivia"
+},
+{
+    "eventName": "Ideathon",
+    "registerLink": "https://docs.google.com/forms/d/1is7l6PWX3Pj2gZciU8JtNn7tfBLX3utgq5C0eIQBYsg/edit",
+    "src": "/newEvents/ideathon.png",
+    "alt": "Ideathon"
+},
+{
+    "eventName": "Treasure Hunt",
+    "registerLink": "https://docs.google.com/forms/d/1aiI3M_JFY5hvqu_45xXdHMasrFun-Cwz6wN75c--HV8/edit",
+    "src": "/newEvents/treasure hunt.png",
+    "alt": "Mitra's Treasure Hunt"
+},
+{
+    "eventName": "Monologue",
+    "registerLink": "https://docs.google.com/forms/d/1dZwOqJsIdhbixb0bbpfNhJ0gf294ot2tg4Qh7p5TXms/edit",
+    "src": "/newEvents/monologue.jpg",
+    "alt": "Monologue"
+},
+{
+    "eventName": "Nukkad natak",
+    "registerLink": "https://docs.google.com/forms/d/1wQfzt5Rh3yLRhLNJAqwGYNNBRh3QqnF0dk5OLKSsPe4/edit",
+    "src": "/newEvents/nukkad.png",
+    "alt": "Nukkad natak"
+},
+  {
+      "eventName": "Thumbprint Tree",
+      "registerLink": "NO FORM",
+      "src": "/newEvents/thumbprint tree.png",
+      "alt": "Thunbprint Tree"
+  },
+  {
+      "eventName": "Memory Master",
+      "registerLink": "https://docs.google.com/forms/d/1CF7mJIboESvNMCncFzLiClTPeDfqNrCbFC-JlKCmfEM/edit?ts=65e8aec0",
+      "src": "/newEvents/memory master.png",
+      "alt": "Memory Master"
+  },
+  {
+      "eventName": "Chess",
+      "registerLink": "https://docs.google.com/forms/d/1-wbvAjKWgGhhL_wOSy9Z4PUZjLY4eo0K8nbwfqj5GXw/edit",
+      "src": "/newEvents/chess.png",
+      "alt": "Chess"
+  },
+  {
+      "eventName": "2v2 cricket",
+      "registerLink": "https://docs.google.com/forms/d/1SekgmkBuCfGn5ng29_pbK0HywFG57FzNM4Drdxmhe2w/edit",
+      "src": "/newEvents/2v2 Cricket.png",
+      "alt": "2v2 cricket"
+  },
+  {
+      "eventName": "3v3 Basketball",
+      "registerLink": "https://docs.google.com/forms/d/19nnFrVtuPsw0xLH-KQdC3_pQaJkKeVTq3xEi3OpvZDg/edit",
+      "src": "/newEvents/3v3 basketball.png",
+      "alt": "3v3 Basketball"
+  },
+  {
+      "eventName": "5v5 Futsal",
+      "registerLink": "https://docs.google.com/forms/d/15YdIk8DDMVtNgTjOBKCLx2EnrTdEwWhlG-royEht5o4/edit",
+      "src": "/newEvents/5v5 Futsal.png",
+      "alt": "5v5 Futsal"
+  },
+  {
+      "eventName": "Measure and Mingle",
+      "registerLink": "",
+      "src": "/newEvents/measure and.png",
+      "alt": "Measure and Mingle"
+  },
+  {
+      "eventName": "Assemble and Gamble",
+      "registerLink": "",
+      "src": "/newEvents/assemble and gamble.png",
+      "alt": "Assemble and Gamble"
+  },
+  {
+      "eventName": "Circuit Tricks",
+      "registerLink": "https://docs.google.com/forms/d/13Kk8N-0oJFDSqPBL_54SHlorzck0DTwEtwq9G42Csr0/edit",
+      "src": "/newEvents/circuit tricks.png",
+      "alt": "Circuit Tricks"
+  },
+  {
+      "eventName": "CAD Design Showdown:",
+      "registerLink": "https://docs.google.com/forms/d/1eO-DA3PVQ3xxNH8H24t4jXqJ8FsyvE_-wn5sYHVZvFk/edit",
+      "src": "/newEvents/cad.png",
+      "alt": "CAD Design Showdown:"
+  },
+  {
+      "eventName": "Guess the component",
+      "registerLink": "https://docs.google.com/forms/d/1wuWN3R-UO8OWbCZoEe2INjfWzX7N8lBrYfMYBu9W0Ac/edit",
+      "src": "/newEvents/guesscomp.png",
+      "alt": "Guess the component"
+  },
+  {
+      "eventName": "Reverse Engineering",
+      "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfSXJCRMBjXi2I9ChG-P0qHC75Q_jxrCfqwgxD28ZT6sXRUVA/viewform?usp=sf_link",
+      "src": "/newEvents/reverse.png",
+      "alt": "Reverse Engineering Challenge"
+  },
+  {
+      "eventName": "Makathon",
+      "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdxO9H5FJbTKdaShH3F_hpxZCaGijEkQzqVS8H0tMab1o_GMw/viewform?usp=sf_link",
+      "src": "/newEvents/makathon.jpg",
+      "alt": "Makathon"
+  },
+  {
+      "eventName": "G Code Guru",
+      "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfqrDzF6c6NOvCqb1_jD9qOT96mVmSJ7ykJlZEMpMKKWG9C8w/viewform?usp=sf_link",
+      "src": "/newEvents/gcode.png",
+      "alt": "G Code Guru"
   }
+
 ]

@@ -71,14 +71,14 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
                 })}
               </div>
             </div>
-            {/* <div className="Comedy Night">
-            <h2>Comedy Night</h2>
+            <div className="Comedy Night">
+            <h2>RJ</h2>
             <div className={styles.pastArtists}>
               {anchor.map((artist, index) => {
                 return <EventTile {...artist} key={index} />;
               })}
             </div>
-          </div> */}
+          </div>
           </div>
 
           <h2>Events</h2>
@@ -118,24 +118,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
       </div>
       <div className={footerstyles.footer} style={{ background: "#000" }}>
         <div className={styles.line}></div>
-        <p style={{ color: "white" }}>© Goonj&apos;24 Digital Operations</p>
-        <p style={{ color: "white" }}>
-          Designed by Akashdeep
-          <br />
-          Developed by{" "}
-          <a href="/" style={{ color: "white" }}>
-            Hitesh Bandhu,&nbsp;
-          </a>
-          <a href="/" style={{ color: "white" }}>
-            Kanika Tiwari,&nbsp;
-          </a>
-          <a href="/" style={{ color: "white" }}>
-            Mayur Sehgal,&nbsp;
-          </a>
-          <a href="/" style={{ color: "white" }}>
-            Bhargavi Goyal
-          </a>
-        </p>
+        <p style={{ color: "white" }}> Designed and Developed by © <a href="https://hiteshbandhu05.notion.site/Goonj-24-Digital-Operations-b599af47a83b4ccbb6b0a621bb2922c9?pvs=74">Goonj&apos;24 Digital Operations</a></p>
         <p style={{ color: "white" }}>
           Powered and Secured By{" "}
           <a

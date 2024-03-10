@@ -59,13 +59,20 @@ export const pastArtist = [
     width: 36 * 7,
     height: 360,
   },
+  // {
+  //   src: "/rjgeet.jpg",
+  //   alt: "RJGEET",
+  //   title: "RJ GEET",
+  //   width: 36 * 7,
+  //   height: 360,
+  // },
 ];
 
 export const anchor = [
   {
-    src: "/artist/question.png",
-    alt: "Comedian",
-    title: " ",
+    src: "/rjgeet.jpg",
+    alt: "RJ",
+    title: "RJ GEET ",
     degi: "",
     width: 36 * 7,
     height: 360,
