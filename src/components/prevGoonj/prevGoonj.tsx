@@ -1,6 +1,6 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap/dist/gsap";
-import { pastEvent, pastArtist, anchor } from "../../data/pastEvents";
+import { pastEvent, pastArtist, anchor, comedy } from "../../data/pastEvents";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import EventCard from "../eventCard/eventCard";
 import styles from "./prevGoonj.module.scss";
@@ -75,6 +75,14 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
             <h2>RJ</h2>
             <div className={styles.pastArtists}>
               {anchor.map((artist, index) => {
+                return <EventTile {...artist} key={index} />;
+              })}
+            </div>
+          </div>
+          <div className="Comedy Night">
+            <h2>Comedian</h2>
+            <div className={styles.pastArtists}>
+              {comedy.map((artist, index) => {
                 return <EventTile {...artist} key={index} />;
               })}
             </div>

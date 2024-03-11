@@ -78,3 +78,14 @@ export const anchor = [
     height: 360,
   },
 ];
+
+export const comedy = [
+  {
+    src: "/parvinder.jpg",
+    alt: "Parvinder",
+    title: "PARVINDER ",
+    degi: "",
+    width: 36 * 7,
+    height: 360,
+  },
+];
