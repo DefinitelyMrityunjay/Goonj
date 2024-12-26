@@ -1,3 +1,5 @@
-Run using ``` npm run dev ```
+Run using
+ ``` npm install ```
+ ``` npm run dev ```
 
 &copy; Goonj Digital Operations Team
