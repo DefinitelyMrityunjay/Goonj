@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./hero.module.scss";
-import Link from "next/link";
 
 export default function Hero() {
   const tagSize = 200;
@@ -16,12 +15,12 @@ export default function Hero() {
             /> */}
       {/* <Dancers /> */}
       <p className={styles.tagLine}>UIET’S TECHNO-CULTURAL FEST</p>
-      <a href="/events"><p className={styles.date}><span>&#9654;&#x25B6;</span> Register Here For Events !</p></a>
+      <a href="/events"><p className={styles.date}><span>&#9654;&#x25B6;</span> Click here to see past events !</p></a>
       <Image
         src="/bgIMG3.png"
         alt="theme"
-        layout="fill"
-        objectFit="cover"
+        fill
+        style={{ objectFit: "cover" }}
         className={styles.heroIMG}
       />
     </div>

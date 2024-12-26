@@ -87,7 +87,7 @@ export default function Navbar({ color }: navProp) {
               <Link href="/about">ABOUT US</Link>
             </li>
             <li>
-              <Link href="/events">EVENTS</Link>
+              <Link href="/events">PAST EVENTS</Link>
             </li>
             <li>
               <Link href="/artist">STAR NIGHT</Link>
@@ -98,7 +98,7 @@ export default function Navbar({ color }: navProp) {
           <Link href="/">
             <Image
               className={styles.img}
-              src="/logos/goonj.jpg"
+              src="/logos/goonjNewLogo.png"
               alt="Goonj"
               width={2789}
               height={861}
@@ -116,7 +116,7 @@ export default function Navbar({ color }: navProp) {
               <Link href="/contact">CONTACTS</Link>
             </li>
             <li>
-              <Link href="/sponsers">SPONSORS</Link>
+              <Link href="/sponsers">PAST SPONSORS</Link>
             </li>
             <li>
               <Link href="https://puchd.ac.in/" target="_blank">

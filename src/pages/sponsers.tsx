@@ -9,7 +9,7 @@ export default function Sponsers() {
   return (
     <>
       <Head>
-        <title>Goonj 2024 | Sponsers</title>
+        <title>Goonj 2025 | Sponsors</title>
         <meta name="Goonj" content="Goonj 2023, UIET,PU CHD" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -105,8 +105,7 @@ export default function Sponsers() {
             </div>
           </div>
           <div className={footerstyles.footer} style={{backgroundColor:"#252525"}} >
-          <p style={{color:"white"}}>Designed and Developed by <a href="https://hiteshbandhu05.notion.site/Goonj-24-Digital-Operations-b599af47a83b4ccbb6b0a621bb2922c9?pvs=74">© Goonj&apos;24 Digital Operations</a></p>
-        <p style={{color:"white"}}>Powered and Secured By <a style={{color:"white"}} rel="follow" target="_blank" href="https://quinji.com">Quinji Tech</a></p>
+          <p style={{color:"white"}}>Designed and Developed by © Goonj&apos;25 Digital Operations</p>
     </div>
         </div>
       </main>
