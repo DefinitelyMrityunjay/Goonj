@@ -10,8 +10,8 @@ export default function Niq() {
   return (
     <>
       <Head>
-        <title>Goonj 2024 | INFO</title>
-        <meta name="Goonj" content="Goonj 2024, UIET,PU CHD" />
+        <title>Goonj 2025 | INFO</title>
+        <meta name="Goonj" content="Goonj 2025, UIET,PU CHD" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -32,7 +32,7 @@ export default function Niq() {
           />
 
           <h2 className={styles.heading}>
-            Goonj 2024
+            Goonj 2025
             <br />
             Information brochure
           </h2>
@@ -47,7 +47,7 @@ export default function Niq() {
           >
             <a
               className={styles.form}
-              href="https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/marketing%20brochures%2Fmarketing%20brochure%20original_compressed.pdf?alt=media&token=57b3168f-bbc3-4a2e-82c7-22f41311cd1f"
+              href="https://drive.google.com/file/d/1koaS87nGKPI4ndByXAFfCGRM_g2BN3-e/view?usp=drivesdk"
               download
               target="_blank"
               rel="noreferrer"

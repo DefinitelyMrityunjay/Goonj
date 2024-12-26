@@ -35,35 +35,25 @@ const EventsPage = () => {
             <div  className="events-sub">
             <div>{event.registrationFee} <FontAwesomeIcon icon={faMoneyBillAlt} /></div>
             </div> */}
-              <div className="eventReg">
+
+              {/* <div className="eventReg">
                 <a href={event.registerLink}>Register Now</a>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
         
       </div>
       <div className={footerstyles.footer} style={{backgroundColor:"black"}}>
-          <p>© Goonj&apos;24 Digital Operations</p>
-          <p style={{ color: "white" }}>
+          <p>© Goonj&apos;25 Digital Operations</p>
+          {/* <p style={{ color: "white" }}>
             Designed by Akashdeep
             <br />
             Developed by <a href="/">Hitesh Bandhu,&nbsp;</a>
             <a href="/">Kanika Tiwari,&nbsp;</a>
             <a href="/">Mayur Sehgal,&nbsp;</a>
             <a href="/">Bhargavi Goyal</a>
-          </p>
-          <p>
-            Powered and Secured By{" "}
-            <a
-              style={{ color: "white" }}
-              rel="follow"
-              target="_blank"
-              href="https://quinji.com"
-            >
-              Quinji Tech
-            </a>
-          </p>
+          </p> */}
         </div>
 
       <style jsx>{`
@@ -129,7 +119,9 @@ const EventsPage = () => {
             display:flex;
             flex-direction:column;
             align-items:center;
-            gap:8px
+            gap:8px;
+            margin-top: 19px;
+
         }
         .event-name {
           text-transform: uppercase;

@@ -45,7 +45,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+  margin-top: 10px;
+
+    // gap: 8px;
   }
   
   .event-name {
@@ -53,6 +55,7 @@
     font-size: 24px;
     text-align: center;
     padding-top: 8px;
+
   }
   
   .eventOrg {

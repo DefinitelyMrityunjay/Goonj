@@ -48,7 +48,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
             Moreover, the motive is to spread a zeal among students relieving
             them from the stressful schedule of an engineering atmosphere.
           </p>
-          <h2>Glimpse of Goonj 2023</h2>
+          <h2>Glimpse of Goonj</h2>
           <div className={styles.videoContainer}>
             <iframe
               src="https://www.youtube.com/embed/48SC6qk2MDY?si=q-nmDroPd6Y1qPDI"
@@ -56,13 +56,47 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
           </div>
-          <div className={styles.themeRelease}>
-            <div className={styles.themeReleaseText}>THEME</div>
-            <div className={styles.themeReleaseLine}></div>
-            <div>RELEASE</div>
-          </div>
 
-          <div className={styles.stars}>
+          
+
+          <h2>Events</h2>
+          <div className={styles.pastEvents}>
+            {events.slice(0, 6).map((event, index) => {
+              return (
+                <EventCard
+                  {...event}
+                  alt={event.alt.toUpperCase()}
+                  key={index}
+                />
+              );
+            })}
+          </div>
+          <Link href="/events" style={{ width: "250px" }}>
+            {" "}
+          </Link>
+          {/* <p>
+          *Most of the cash prizes have already been distributed by us. In case
+          of any Pending prize money please contact Prof. Harbhinder Singh,
+          Incharge, Spot purchase committee, Goonj 2023, Contact at 9316103516.
+        </p> */}
+          {/* <a href="/events" id={styles.MoreEvents}>
+            <div>More Events</div>
+          </a> */}
+<div className={styles.loadingContainer}>
+        <span>L</span>
+        <span>o</span>
+        <span>a</span>
+        <span>d</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+        <span>.</span>
+        <span>.</span>
+        <span>.</span>
+    </div>
+    <h2>Past Performers</h2>
+
+    <div className={styles.stars}>
             <div className="Star Night">
               <h2>Star Night</h2>
               <div className={styles.pastArtists}>
@@ -88,34 +122,6 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
             </div>
           </div>
           </div>
-
-          <h2>Events</h2>
-          <p>
-            Total Prizes to be won: INR 80,000/- Goodies / Gifts / Coupons are
-            extra, over and above the specified INR
-          </p>
-          <div className={styles.pastEvents}>
-            {events.slice(0, 6).map((event, index) => {
-              return (
-                <EventCard
-                  {...event}
-                  alt={event.alt.toUpperCase()}
-                  key={index}
-                />
-              );
-            })}
-          </div>
-          <Link href="/events" style={{ width: "250px" }}>
-            {" "}
-          </Link>
-          {/* <p>
-          *Most of the cash prizes have already been distributed by us. In case
-          of any Pending prize money please contact Prof. Harbhinder Singh,
-          Incharge, Spot purchase committee, Goonj 2023, Contact at 9316103516.
-        </p> */}
-          <a href="/events" id={styles.MoreEvents}>
-            <div>More Events</div>
-          </a>
           <h2>Past Events</h2>
           <div className={styles.pastEvents2}>
             {pastEvent.map((event, index) => {
@@ -126,18 +132,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
       </div>
       <div className={footerstyles.footer} style={{ background: "#000" }}>
         <div className={styles.line}></div>
-        <p style={{ color: "white" }}> Designed and Developed by © <a href="https://hiteshbandhu05.notion.site/Goonj-24-Digital-Operations-b599af47a83b4ccbb6b0a621bb2922c9?pvs=74">Goonj&apos;24 Digital Operations</a></p>
-        <p style={{ color: "white" }}>
-          Powered and Secured By{" "}
-          <a
-            style={{ color: "white" }}
-            rel="follow"
-            target="_blank"
-            href="https://quinji.com"
-          >
-            Quinji Tech
-          </a>
-        </p>
+        <p style={{ color: "white" }}> Designed and Developed by © Goonj&apos;25 Digital Operations</p>
       </div>
     </>
   );

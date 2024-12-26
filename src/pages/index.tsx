@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Goonj 2024</title>
-        <meta name="Goonj" content="Goonj 2024, UIET,PU CHD" />
+        <title>Goonj 2025</title>
+        <meta name="Goonj" content="Goonj 2025, UIET,PU CHD" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main} ref={ref}>
         {/* <Marque/> */}
-        {popup && <Popup setpopup={setPopup} />}
+        {/* {popup && <Popup setpopup={setPopup} />} */}
        <header>
           <Navbar color={"#a02a91"}/>
        </header>

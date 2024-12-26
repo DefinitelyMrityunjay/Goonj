@@ -42,24 +42,6 @@
     "alt": "Indian Politics Quiz(Politia))"
   },
   {
-    "eventName": "Catch the stick",
-    "registerLink": "",
-    "src": "/newEvents/catch the stick.png",
-    "alt": "Catch the stick"
-  },
-  {
-    "eventName": "Team build game",
-    "registerLink": "",
-    "src": "/newEvents/team build.jpg",
-    "alt": "Team build game"
-  },
-  {
-    "eventName": "Snake and Ladder",
-    "registerLink": "",
-    "src": "/newEvents/humansnake.png",
-    "alt": "Snake and Ladder/Human Ludo"
-  },
-  {
     "eventName": "Market me strange",
     "registerLink": "https://docs.google.com/forms/d/1ZjMjXZ123a2huUKQBxTgjk3416IQxpxkQcW6XpppsDs/edit",
     "src": "/newEvents/mms.png",
@@ -116,13 +98,13 @@
   {
     "eventName": "24-Hour Hackathon",
     "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdzmt4_aNMdjErAjQDcmnYQP2fjJB-PcQgYouMotvdFppm9wA/viewform?usp=sf_link",
-    "src": "/newEvents/technovate.png",
+    "src": "/newEvents/TECHNOVATE.png",
     "alt": "24-Hour Hackathon"
   },
   {
     "eventName": "ML Ware",
     "registerLink": "https://docs.google.com/forms/d/1hyjDvz36PynGM0k8qGl1ql6x399GQFLm7HOapz9gVJM/edit?ts=65e6059d",
-    "src": "/newEvents/ml ware.png",
+    "src": "/newEvents/ML WARE.png",
     "alt": "ML Ware"
 },
 {
@@ -152,7 +134,7 @@
 {
     "eventName": "IPL auction",
     "registerLink": "https://docs.google.com/forms/d/1GWHiHbCmnEr_Sb9T-mfHXXFB5XoDDGT7w2mIgGqirhM/edit",
-    "src": "/newEvents/ipl auction.png",
+    "src": "/newEvents/IPL AUCTION.png",
     "alt": "IPL auction"
 },
 {
@@ -170,19 +152,19 @@
 {
     "eventName": "Tech Trivia",
     "registerLink": "https://docs.google.com/forms/d/17KCW9xN3r9cZ5zHpuB5rX2iu4cdhkKG3OxLxdUCipGs/edit",
-    "src": "/newEvents/tech trivia.png",
+    "src": "/newEvents/TECH TRIVIA.png",
     "alt": "Tech Trivia"
 },
 {
     "eventName": "Ideathon",
     "registerLink": "https://docs.google.com/forms/d/1is7l6PWX3Pj2gZciU8JtNn7tfBLX3utgq5C0eIQBYsg/edit",
-    "src": "/newEvents/ideathon.png",
+    "src": "/newEvents/Ideathon.png",
     "alt": "Ideathon"
 },
 {
     "eventName": "Treasure Hunt",
     "registerLink": "https://docs.google.com/forms/d/1aiI3M_JFY5hvqu_45xXdHMasrFun-Cwz6wN75c--HV8/edit",
-    "src": "/newEvents/treasure hunt.png",
+    "src": "/newEvents/TREASURE HUNT.png",
     "alt": "Mitra's Treasure Hunt"
 },
 {
@@ -200,13 +182,13 @@
   {
       "eventName": "Thumbprint Tree",
       "registerLink": "NO FORM",
-      "src": "/newEvents/thumbprint tree.png",
+      "src": "/newEvents/THUMBPRINT TREE.png",
       "alt": "Thunbprint Tree"
   },
   {
       "eventName": "Memory Master",
       "registerLink": "https://docs.google.com/forms/d/1CF7mJIboESvNMCncFzLiClTPeDfqNrCbFC-JlKCmfEM/edit?ts=65e8aec0",
-      "src": "/newEvents/memory master.png",
+      "src": "/newEvents/MEMORY MASTER.png",
       "alt": "Memory Master"
   },
   {
@@ -216,7 +198,7 @@
       "alt": "Chess"
   },
   {
-      "eventName": "2v2 cricket",
+      "eventName": "2v2 Cricket",
       "registerLink": "https://docs.google.com/forms/d/1SekgmkBuCfGn5ng29_pbK0HywFG57FzNM4Drdxmhe2w/edit",
       "src": "/newEvents/2v2 Cricket.png",
       "alt": "2v2 cricket"
@@ -224,11 +206,11 @@
   {
       "eventName": "3v3 Basketball",
       "registerLink": "https://docs.google.com/forms/d/19nnFrVtuPsw0xLH-KQdC3_pQaJkKeVTq3xEi3OpvZDg/edit",
-      "src": "/newEvents/3v3 basketball.png",
+      "src": "/newEvents/3V3 basketball.png",
       "alt": "3v3 Basketball"
   },
   {
-      "eventName": "5v5 Futsal",
+      "eventName": "5V5 Futsal",
       "registerLink": "https://docs.google.com/forms/d/15YdIk8DDMVtNgTjOBKCLx2EnrTdEwWhlG-royEht5o4/edit",
       "src": "/newEvents/5v5 Futsal.png",
       "alt": "5v5 Futsal"
@@ -236,19 +218,19 @@
   {
       "eventName": "Measure and Mingle",
       "registerLink": "",
-      "src": "/newEvents/measure and.png",
+      "src": "/newEvents/MEASURE AND.png",
       "alt": "Measure and Mingle"
   },
   {
       "eventName": "Assemble and Gamble",
       "registerLink": "",
-      "src": "/newEvents/assemble and gamble.png",
+      "src": "/newEvents/ASSEMBLE AND GAMBLE.png",
       "alt": "Assemble and Gamble"
   },
   {
       "eventName": "Circuit Tricks",
       "registerLink": "https://docs.google.com/forms/d/13Kk8N-0oJFDSqPBL_54SHlorzck0DTwEtwq9G42Csr0/edit",
-      "src": "/newEvents/circuit tricks.png",
+      "src": "/newEvents/CIRCUIT TRICKS.png",
       "alt": "Circuit Tricks"
   },
   {
@@ -269,12 +251,7 @@
       "src": "/newEvents/reverse.png",
       "alt": "Reverse Engineering Challenge"
   },
-  {
-      "eventName": "Makathon",
-      "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdxO9H5FJbTKdaShH3F_hpxZCaGijEkQzqVS8H0tMab1o_GMw/viewform?usp=sf_link",
-      "src": "/newEvents/makathon.jpg",
-      "alt": "Makathon"
-  },
+  
   {
       "eventName": "G Code Guru",
       "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfqrDzF6c6NOvCqb1_jD9qOT96mVmSJ7ykJlZEMpMKKWG9C8w/viewform?usp=sf_link",

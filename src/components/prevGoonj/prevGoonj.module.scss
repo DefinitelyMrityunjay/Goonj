@@ -177,3 +177,71 @@
     background: #ad0202
   }
 }
+// byYakash
+.loadingContainer{
+  color: #111;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.loadingContainer span{
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  animation : animate 1.5s linear infinite;
+  font-size: 2rem;
+  font-family: "Protest Riot", sans-serif;
+
+    /* -webkit-text-stroke: #fff 1px; */
+}
+
+.loadingContainer span:nth-child(2){
+  animation-delay: 0.15s;
+}
+
+.loadingContainer span:nth-child(3){
+  animation-delay: 0.3s;
+}
+
+.loadingContainer span:nth-child(4){
+  animation-delay: 0.45s;
+}
+
+.loadingContainer span:nth-child(5){
+  animation-delay: 0.6s;
+}
+
+.loadingContainer span:nth-child(6){
+  animation-delay: 0.75s;
+}
+
+.loadingContainer span:nth-child(7){
+  animation-delay: 0.9s;
+}
+
+.loadingContainer span:nth-child(8){
+  animation-delay: 1.05s;
+}
+
+.loadingContainer span:nth-child(9){
+  animation-delay: 1.2s;
+}
+
+.loadingContainer span:nth-child(10){
+  animation-delay: 1.35s;
+}
+
+@keyframes animate{
+  0%,100%{
+    filter: blur(1px);
+    color: #fff;
+    text-shadow: 3px 0px 20px #fff;
+  }
+  15%,85%{
+    filter: blur(0px);
+    color: #111;
+    text-shadow:none;
+
+  }
+}
